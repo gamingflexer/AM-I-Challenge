@@ -22,3 +22,7 @@ Development of a Mobile App using which the end-user can, by pressing a button s
 - \POST Web for a user
     - Display the user name on Web Page 
     - Display the camera feed and the distance with the menu to select the camera feed
+
+# Run backend
+
+`flask run --reload`
