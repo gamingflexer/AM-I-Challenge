@@ -16,9 +16,8 @@ app.config.from_object(Config())
 
 # Initialize Firestore DB
 try:
-    cred = credentials.Certificate(basepath+"/config/serviceAccountKey.json")
-
-    firebase_admin.initialize_app(cred, {'storageBucket': 'hackmanthan-lostminds.appspot.com'})
+    cred = credentials.Certificate(os.path.join(basepath,'config', 'serviceAccountKey.json'))
+    firebase_admin.initialize_app(cred, {'storageBucket': 'iitm-f916f.appspot.com'})
 
     db = firestore.client()
     bucket = storage.bucket()
