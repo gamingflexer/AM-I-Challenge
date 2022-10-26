@@ -25,4 +25,10 @@ Development of a Mobile App using which the end-user can, by pressing a button s
 
 # Run backend
 
-`flask run --reload`
+Main Backend
+
+`flask run --reload --port 5001`
+
+Camera Feed
+
+`python app.py`
