@@ -11,67 +11,69 @@
     {% compress css %}
     <link type="text/x-scss" href="{% static '/scss/index.scss' %}" rel="stylesheet" media="screen">
     {% endcompress %}
+    <script>let openBtn = document.getElementById("open-btn");
+        let closeBtn = document.getElementById("close-btn");
+        let mobileHeader = document.getElementById("mobile-header-div");
 
+        openBtn.addEventListener("click", function () {
+            mobileHeader.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", function () {
+            mobileHeader.classList.remove("active");
+        });</script>
 
 </head>
 
-<body>
-    <div class="container">
-        <div class="container__item landing-page-container">
-            <div class="content__wrapper">
-
-                <header class="header">
-                    <div class="menu-icon header__item">
-                        <span class="menu-icon__line" onclick="window.location='/dashboard'"></span>
-                    </div>
-
-                    <h1 class="heading header__item">Source-Parser</h1>
-
-                    <ul class="social-container header__item">
-                        <li class="social__icon social__icon--fb">
-                            <a href="{% url 'register_user' %}"><img
-                                    src="https://cdn-icons-png.flaticon.com/512/5372/5372281.png" alt="Sign In"></a>
-                        </li>
-                        <!-- <li class="social__icon social__icon--dr">
-                                <img src="https://image.flaticon.com/icons/svg/25/25631.svg" alt="dribbble">
-                            </li>
-                            <li class="social__icon social__icon--in">
-                                <img src="https://image.flaticon.com/icons/svg/1077/1077042.svg" alt="instagram"> -->
-                        </li>
-                    </ul>
-                </header>
-
-                <p class="coords">N 49° 16' 35.173" / W 0° 42' 11.30"</p>
-
-                <div class="ellipses-container">
-
-                    <h2 class="greeting">Source</h2>
-
-                    <div class="ellipses ellipses__outer--thin">
-
-                        <div class="ellipses ellipses__orbit"></div>
-
-                    </div>
-
-                    <div class="ellipses ellipses__outer--thick"></div>
-                </div>
-
-                <div class="scroller">
-                    <p class="page-title">home</p>
-
-                    <div class="timeline">
-                        <span class="timeline__unit"></span>
-                        <span class="timeline__unit timeline__unit--active"></span>
-                        <span class="timeline__unit"></span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
+<header id="desktop-header">
+    <div class="home-content">
+        <h2 style="color:rgb(255, 255, 255)">IITM APP</h2>
     </div>
+    <nav>
+        <ul>
+        </ul>
+        <ul>
+            <li><a href="#!">Log In</a></li>
+            <li><a href="#!">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="header-btn" id="open-btn">
+        <img src="https://rvs-payment-landing-page.vercel.app/Assets/menu.svg" alt="">
+    </div>
+</header>
 
-</body>
+<div id="mobile-header-div">
+    <header id="mobile-header">
+        <div class="header-top">
+            <div class="header-img">
+                <a href="index.html"><img src="https://rvs-payment-landing-page.vercel.app/Assets/logo.png" alt=""></a>
+            </div>
+            <div class="header-btn" id="close-btn">
+                <img src="https://rvs-payment-landing-page.vercel.app/Assets/close.svg" alt="">
+            </div>
+        </div>
+        <nav>
+            <ul>
+            </ul>
+            <ul>
+                <li><a href="#!">Log In</a></li>
+                <li><a href="#!">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+<main>
+    <section class="home">
+        <div class="home-content">
+            <h6>IITM APP</h6>
+            <h1>Track Down Location with our app</h1>
+            <a href="#!">Download <img src="https://rvs-payment-landing-page.vercel.app/Assets/download.svg" alt=""></a>
+        </div>
+        <div class="home-img">
+        </div>
+    </section>
+</main>
 
 </html>
 {% endblock body %}
