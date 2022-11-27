@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}IITM APP{% endblock title %}
+{% block body %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<link type="text/css" href="{% static 'css/page_404.css' %}" rel="stylesheet">
+<script>const text = baffle('.baffle');
+  text.set({
+    characters: '!/|~#.^+*$#%nwf',
+    speed: 10000
+  });
+  text.start();
+  text.reveal(2000);
+</script>
+<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+<div class="container">
+  <p class="baffle">Under Construction 🧑‍💻</p>
+</div>
+
+</html>
+{% endblock body %}

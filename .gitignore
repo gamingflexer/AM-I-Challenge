@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 app/iitm/android/app/google-services.json
 web/backend/config/serviceAccountKey.json
+web/backend/log.txt

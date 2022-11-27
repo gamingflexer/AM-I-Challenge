@@ -1,0 +1,129 @@
+/* line 1, static/scss/resume.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 6, static/scss/resume.scss */
+html {
+  height: 100%; }
+
+/* line 10, static/scss/resume.scss */
+body {
+  min-height: 100%;
+  background: #eee;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px; }
+
+/* line 21, static/scss/resume.scss */
+.container {
+  max-width: 700px;
+  background: #fff;
+  margin: 0px auto 0px;
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;
+  padding: 40px;
+  margin-top: 50px; }
+
+/* line 31, static/scss/resume.scss */
+.header {
+  margin-bottom: 30px; }
+  /* line 34, static/scss/resume.scss */
+  .header .full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px; }
+  /* line 40, static/scss/resume.scss */
+  .header .first-name {
+    font-weight: 700; }
+  /* line 44, static/scss/resume.scss */
+  .header .last-name {
+    font-weight: 300; }
+  /* line 48, static/scss/resume.scss */
+  .header .contact-info {
+    margin-bottom: 20px; }
+  /* line 52, static/scss/resume.scss */
+  .header .email,
+  .header .phone {
+    color: #999;
+    font-weight: 300; }
+  /* line 58, static/scss/resume.scss */
+  .header .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px; }
+  /* line 65, static/scss/resume.scss */
+  .header .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline; }
+
+/* line 74, static/scss/resume.scss */
+.details {
+  line-height: 20px; }
+  /* line 77, static/scss/resume.scss */
+  .details .section {
+    margin-bottom: 40px; }
+  /* line 81, static/scss/resume.scss */
+  .details .section:last-of-type {
+    margin-bottom: 0px; }
+  /* line 85, static/scss/resume.scss */
+  .details .section__title {
+    letter-spacing: 2px;
+    color: #54AFE4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase; }
+  /* line 93, static/scss/resume.scss */
+  .details .section__list-item {
+    margin-bottom: 40px; }
+  /* line 97, static/scss/resume.scss */
+  .details .section__list-item:last-of-type {
+    margin-bottom: 0; }
+  /* line 101, static/scss/resume.scss */
+  .details .left,
+  .details .right {
+    vertical-align: top;
+    display: inline-block; }
+  /* line 107, static/scss/resume.scss */
+  .details .left {
+    width: 60%; }
+  /* line 111, static/scss/resume.scss */
+  .details .right {
+    tex-align: right;
+    width: 39%; }
+  /* line 116, static/scss/resume.scss */
+  .details .name {
+    font-weight: bold; }
+  /* line 120, static/scss/resume.scss */
+  .details a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic; }
+  /* line 126, static/scss/resume.scss */
+  .details a:hover {
+    text-decoration: underline;
+    color: #000; }
+  /* line 135, static/scss/resume.scss */
+  .details .skills__item {
+    margin-bottom: 10px; }
+  /* line 140, static/scss/resume.scss */
+  .details .skills__item .right input {
+    display: none; }
+  /* line 144, static/scss/resume.scss */
+  .details .skills__item .right label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #C3DEF3;
+    border-radius: 20px;
+    margin-right: 3px; }
+  /* line 153, static/scss/resume.scss */
+  .details .skills__item .right input:checked + label {
+    background: #79A9CE; }

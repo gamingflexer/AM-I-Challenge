@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;900&display=swap");
+/* line 3, static/scss/profile.scss */
+:root {
+  --primary: #191919;
+  --secondary: #fff;
+  --ternary: #310273;
+  --background: #f3f6fd;
+  --gray: #e1eeff7f;
+  --white: #fff; }
+
+/* line 12, static/scss/profile.scss */
+body {
+  color: var(--font-color);
+  font-family: "Inter", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  background: var(--background);
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; }
+
+/* line 28, static/scss/profile.scss */
+.card {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  background-color: var(--secondary);
+  cursor: pointer; }
+
+/* line 37, static/scss/profile.scss */
+.person {
+  width: 300px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 43, static/scss/profile.scss */
+  .person > img {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    top: 15px;
+    position: relative; }
+    /* line 49, static/scss/profile.scss */
+    .person > img:hover {
+      animation: animate 1s forwards; }
+
+@keyframes animate {
+  100% {
+    position: relative;
+    transform: scale(1.6);
+    top: -55px;
+    border-radius: 60%; } }
+
+/* line 64, static/scss/profile.scss */
+.title {
+  font-weight: 500;
+  initial-letter: 1.5; }

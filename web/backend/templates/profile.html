@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}IITM APP{% endblock title %}
+{% block body %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% load compress %}
+{% compress css %}
+<link type="text/x-scss" href="{% static '/scss/profile.scss' %}" rel="stylesheet" media="screen">
+{% endcompress %}
+<div class="card">
+	<div class="person">
+		<img src="https://cdn-icons-png.flaticon.com/512/2922/2922653.png" alt="">
+	</div>
+</div>
+{% if user.is_authenticated %}
+<h3 class="title">{{ user.username }}</h3>
+{% endif %}
+
+</html>
+{% endblock body %}
