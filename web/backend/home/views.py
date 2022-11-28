@@ -19,6 +19,10 @@ def profile(request):
     if request.user.is_authenticated:
         return render(request, 'profile.html', )
 
+@login_required(login_url='/login/')
+def maps(request):
+    if request.user.is_authenticated:
+        return render(request, 'map.html', )
 
 def page_404(request):
     return render(request, 'page_404.html', {})

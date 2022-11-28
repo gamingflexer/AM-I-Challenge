@@ -10,6 +10,7 @@ urlpatterns = [
     path('profile',views.profile,name='profile'),
     path('resume/<str:file_id>',views.user_info,name='resume'),
     path('resume',views.user_info,name='resume'),
+    path('map',views.maps,name='map'),
     
     # path('forgetpassword',views.forget_password,name='forget_password'),    
     #<-------- other path / urls end here ------->
