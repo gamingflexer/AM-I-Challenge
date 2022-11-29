@@ -12,7 +12,7 @@ def index(request):
 @login_required(login_url='/login/')
 def dashboard(request):
     if request.user.is_authenticated:
-        username = str(request.user)
+        username_admin = str(request.user)
         data1 = dashboard_data_main()
         data = {"total":len(data1),"last_updated": time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}
         print(data1)
@@ -32,6 +32,7 @@ def maps(request,uid):
             if user['uid'] == uid:
                 context['lat'] = user['lat']
                 context['lng'] = user['lng']
+                context['description'] = " ".join([user['uid'],f"{user['time'][:10]}"])
         return render(request, 'map.html', {'data':context})
 
 def page_404(request):
