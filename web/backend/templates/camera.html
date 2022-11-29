@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %}IITM APP{% endblock title %}
+{% block body %}
+{% load static %}
+{% load compress %}
+{% compress css %}
+<link type="text/x-scss" href="{% static '/scss/index.scss' %}" rel="stylesheet" media="screen">
+{% endcompress %}
+<!DOCTYPE html>
+<html lang="en">
+
+<header id="desktop-header">
+    <div class="home-content">
+        <h2 style="color:rgb(255, 255, 255)">IITM APP | Camera View</h2>
+    </div>
+    <nav>
+        <ul>
+        </ul>
+        <ul>
+            <li><a id="record">Record</a></li>
+            <li><a id="stop" >Stop</a></li>
+        </ul>
+    </nav>
+    <div class="header-btn" id="open-btn">
+        <img src="https://rvs-payment-landing-page.vercel.app/Assets/menu.svg" alt="">
+    </div>
+</header>
+
+<body>
+    <script type="text/javascript"> window.CSRF_TOKEN = "{{ csrf_token }}"; </script>
+    <div id="recorder">
+        {% csrf_token %}
+        <a id="download" style="color:rgb(255, 255, 255)"></a>
+        <script type="text/javascript" src="{% static '/js/recorder.js' %}"></script>
+    </div>
+    <img id="video" src="{% url 'video_viewer' %}">
+</body>
+
+</html>
+{% endblock body %}

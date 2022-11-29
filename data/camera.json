@@ -1,0 +1,138 @@
+[
+    {
+        "block": "AEROSPACE ENGINEERING",
+        "camera": [
+            {
+                "id": 1,
+                "description": "Ground floor classroom corridor. They are functioning with a monitor in the office room.",
+                "notes": "3 Nos.",
+                "lat": 12.9920608091455,
+                "long": 80.22862492630344
+            },
+            {
+                "id": 2,
+                "description": "Outside office room",
+                "notes": "1 Nos.",
+                "lat": 12.98949100913859,
+                "long": 80.22756176789781
+            }
+        ]
+    },
+    {
+        "block": "BIOTECHNOLOGY Block-1",
+        "camera": [
+            {
+                "id": 1,
+                "description": "morethan1",
+                "notes": "Working",
+                "lat": 12.98949100913859,
+                "long": 80.22756176789781
+            }
+        ]
+    },
+    {
+        "block": "BIOTECHNOLOGY Block-2",
+        "camera": [
+            {
+                "id": 1,
+                "description": "Animal House camera  total 13 cameras Room No: 612  can see  live recording handling  by Mr. Devaraj Dr. Rayala Suresh kumar Assistant Ground floor ,1st 2nd 3rd handling by Engineering unit Mr. Sarvesh We can See in 1st floor recording",
+                "notes": "Working",
+                "lat": 12.98949100913859,
+                "long": 80.2275617678978180
+            }
+        ]
+    },
+    {
+        "block": "CHEMICAL ENGINEERING",
+        "camera": [
+            {
+                "id": 1,
+                "description": "morethan1",
+                "notes": "Working",
+                "lat": 12.991023676528235,
+                "long": 80.22825603243894
+            },
+            {
+                "id": 2,
+                "description": "MSB corridor ground floor, 1st floor and 2nd floor (Institute Control)",
+                "notes": "Working",
+                "lat": 12.990224336208957,
+                "long": 80.22934090495087
+            }
+        ]
+    },
+    {
+        "block": "CHEMISTRY OLD BUILDING DVR-1",
+        "camera": [
+            {
+                "id": 1,
+                "description": "morethan1",
+                "notes": "Working",
+                "lat": 12.988230653551996,
+                "long": 80.23233991436656
+            }
+        ]
+    },
+    {
+        "block": "CHEMISTRY OLD BUILDING DVR-2",
+        "camera": [
+            {
+                "id": 1,
+                "description": "Old Building Entrance Towards Velachery Gate",
+                "notes": "Working",
+                "lat": 12.988230653551996,
+                "long": 80.23233991436656
+            },
+            {
+                "id": 2,
+                "description": "Old Building Entrance Towards Velachery Gate",
+                "notes": "Working",
+                "lat": 12.987885605497173,
+                "long": 80.23186401231804
+            }
+        ]
+    },
+    {
+        "block": "Chemistry - NCCR",
+        "camera": [
+            {
+                "id": 1,
+                "description": "NCCR Entrance Gate Inside & Outside & steps",
+                "notes": "working",
+                "lat": 12.988421858318668,
+                "long": 80.23253388392189
+            }
+        ]
+    },
+    {
+        "block": "Chemistry - NEW BUILDING",
+        "camera": [
+            {
+                "id": 1,
+                "description": "morethan1",
+                "notes": "NCCR Entrance Gate Inside & Outside & steps",
+                "lat": 12.987885605497173,
+                "long": 80.23186401231804
+            }
+        ]
+    },
+    {
+        "block": "CIVIL ENGINEERING BSB NVR-1",
+        "camera": [
+            {
+                "id": 1,
+                "description": "morethan1",
+                "notes": "IPS",
+                "lat": 12.989935285297832,
+                "long": 80.22900279653415
+            },
+            {
+                "id": 2,
+                "description": "morethan1",
+                "notes": "IPS",
+                "lat": 12.989935285297832,
+                "long": 80.22900279653415
+            }
+        ]
+    }
+]
