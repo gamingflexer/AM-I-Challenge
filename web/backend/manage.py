@@ -3,7 +3,8 @@
 import os
 import sys
 import logging
-
+import firebase_admin
+from firebase_admin import credentials, firestore, initialize_app, storage
 logging.basicConfig(filename="log.txt",level=logging.DEBUG)
 
 def main():
@@ -19,6 +20,20 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
+
+basepath = os.path.abspath(os.path.dirname(__file__))
+
+# Initialize Firestore DB
+try:
+    cred = credentials.Certificate(os.path.join(basepath,'config', 'serviceAccountKey.json'))
+    firebase_admin.initialize_app(cred, {'storageBucket': 'iitm-f916f.appspot.com'})
+
+    db = firestore.client()
+    bucket = storage.bucket()
+    print("---------------------------> IN <--------------------------")
+except Exception as e:
+    print(e)
+    print("--------------------------------------> Not Logged in !")
 
 if __name__ == '__main__':
     main()
