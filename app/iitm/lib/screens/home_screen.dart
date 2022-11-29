@@ -90,7 +90,24 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             ElevatedButton(
               child: Text("Send Location"),
-              onPressed: get_user_details_create_alert,
+              onPressed: () async {
+                get_user_details_create_alert();
+                print("alert created");
+                final snackbar = SnackBar(
+                    action: SnackBarAction(
+                      label: 'Undo',
+                      textColor: Colors.blue,
+                      onPressed: () {},
+                    ),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20)),
+                    behavior: SnackBarBehavior.floating,
+                    // padding: EdgeInsets.all(20),
+                    duration: const Duration(milliseconds: 3000),
+                    // backgroundColor: Colors.red,
+                    content: Text('Location Shared : )'));
+                ScaffoldMessenger.of(context).showSnackBar(snackbar);
+              },
             ),
             // if (_currentPosition != null && currentAddress != null)
             Text(currentAddress,
