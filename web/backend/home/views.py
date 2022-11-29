@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import RegisterUserForm
 from api.views import dashboard_data_main
+import time
 
 def index(request):
     return render(request, 'index.html', {})
@@ -12,7 +13,10 @@ def index(request):
 def dashboard(request):
     if request.user.is_authenticated:
         username = str(request.user)
-        return render(request, 'dashboard.html', {'data':"data",'data2':"data2"})
+        data1 = dashboard_data_main()
+        data = {"total":len(data1),"last_updated": time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}
+        print(data1)
+        return render(request, 'dashboard.html', {'data':data,'data1':data1})
 
 @login_required(login_url='/login/')
 def profile(request):
@@ -20,9 +24,15 @@ def profile(request):
         return render(request, 'profile.html', )
 
 @login_required(login_url='/login/')
-def maps(request):
+def maps(request,uid):
     if request.user.is_authenticated:
-        return render(request, 'map.html', )
+        data = dashboard_data_main(only_firebase=True)
+        context = {}
+        for user in data:
+            if user['uid'] == uid:
+                context['lat'] = user['lat']
+                context['lng'] = user['lng']
+        return render(request, 'map.html', {'data':context})
 
 def page_404(request):
     return render(request, 'page_404.html', {})

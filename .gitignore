@@ -131,3 +131,4 @@ app/iitm/android/app/google-services.json
 web/backend/config/serviceAccountKey.json
 web/backend/log.txt
 web/backend/static/CACHE/css/*.css
+web/backend/static/*.avi

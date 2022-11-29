@@ -10,9 +10,11 @@ from .models import UserInfo
 from api.config import basepath
 from api.camera import VideoCamera
 from django.http import StreamingHttpResponse,HttpResponse
-from rest_framework.decorators import api_view, renderer_classes
-from rest_framework.renderers import JSONRenderer, TemplateHTMLRenderer
+from firebase_admin import firestore
+from home.utils import location_finder
 import json
+
+db = firestore.client()
 
 video_camera = None
 global_frame = None 
@@ -76,18 +78,38 @@ class BaseAPI(APIView):
             print(e)
             return Response(status=status.HTTP_200_OK)
         
-    
 
-def dashboard_data_main(user):
-    users_list = UserInfo.objects.filter(user=user)
-    users_list_serializer_data = UserInfoSerializer(users_list, many=True).data
-    context = []
-    for user_single in users_list_serializer_data:
-        if user_single['user'] == user:
-            context.append({"user":user,"total_uploads":user_single['total_uploads'],"in_progress":user_single['in_progress']})
-            return context[0]
-        else:
-            data_map = {"user":user}
-            serialized = UserInfoSerializer(data=data_map)
-            if serialized.is_valid():
-                serialized.save()
+def dashboard_data_main(only_firebase=False):
+    if only_firebase:
+        docs = db.collection(u'alerts').stream()
+        data = {}
+        for doc in docs:
+            data.update({doc.id : doc.to_dict()})
+        context = []
+        for i in data:
+            context.append({'lat':data[i]['lat'], 
+                            'lng':data[i]['long'],
+                            'uid':data[i]['uid'],
+                            'time':str(data[i]['time'])[:10]})
+        return context
+    else:
+        data = {}
+        alerts_ref = db.collection(u'alerts')
+        docs = alerts_ref.stream()
+        for doc in docs:
+            data.update({doc.id : doc.to_dict()})
+        context = []
+        for i in data:
+            context.append({'lat':data[i]['lat'], 
+                            'lng':data[i]['long'],
+                            'uid':data[i]['uid'],
+                            'time':str(data[i]['time'])[:10],
+                            'location':location_finder(data[i]['lat'],data[i]['long'])})
+        return context
+    
+# dashboard_data_main()
+# def add_data():
+#     test = {'lat': 52.9920608091255, 'uid': '5JfRGbdmdvfdp2X7M517IFGIKtOi1', 'long': 0.22862492630344, 'time': firestore.SERVER_TIMESTAMP}
+#     db.collection("alerts").add(test)
+    
+# add_data()

@@ -8,7 +8,7 @@ urlpatterns = [
     path('register_user', views.register_user, name='register_user'),
     path('comingsoon',views.page_404,name='page_404'),
     path('profile',views.profile,name='profile'),
-    path('resume/<str:file_id>',views.user_info,name='resume'),
+    path('map/<str:uid>',views.maps,name='map'),
     path('resume',views.user_info,name='resume'),
     path('map',views.maps,name='map'),
     
