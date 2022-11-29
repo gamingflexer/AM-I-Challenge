@@ -1,6 +1,6 @@
 {
-    "name": "iitm",
-    "short_name": "iitm",
+    "name": "google_signin",
+    "short_name": "google_signin",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
