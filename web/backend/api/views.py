@@ -90,7 +90,7 @@ def dashboard_data_main(only_firebase=False):
             context.append({'lat':data[i]['lat'], 
                             'lng':data[i]['long'],
                             'uid':data[i]['uid'],
-                            'time':str(data[i]['time'])[:10]})
+                            'time':str(data[i]['time'])})
         return context
     else:
         data = {}
@@ -107,9 +107,3 @@ def dashboard_data_main(only_firebase=False):
                             'location':location_finder(data[i]['lat'],data[i]['long'])})
         return context
     
-# dashboard_data_main()
-# def add_data():
-#     test = {'lat': 52.9920608091255, 'uid': '5JfRGbdmdvfdp2X7M517IFGIKtOi1', 'long': 0.22862492630344, 'time': firestore.SERVER_TIMESTAMP}
-#     db.collection("alerts").add(test)
-    
-# add_data()
