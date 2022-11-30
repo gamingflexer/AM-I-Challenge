@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
       String? email = user!.email; // <-- Their email
     }
     getCurrentLocation();
-    create_alert(_currentPosition.latitude, _currentPosition.longitude, user!.uid);
+    create_alert(_currentPosition.latitude, _currentPosition.longitude, user!.uid,currentAddress);
   }
 
   final geolocator =
