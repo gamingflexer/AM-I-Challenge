@@ -3,7 +3,7 @@ var buttonStop = document.getElementById("stop");
 
 buttonStop.disabled = true;
 const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
-console.log(csrftoken)
+console.log(ip)
 
 buttonRecord.onclick = function() {
     // var url = window.location.href + "record_status";
@@ -24,7 +24,7 @@ buttonRecord.onclick = function() {
     }
     xhr.open("POST", "http://127.0.0.1:5001/api/v0/record_status");
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    xhr.send(JSON.stringify({ status: "true" }));
+    xhr.send(JSON.stringify({ status: "true" , ip: ip}));
 };
 
 buttonStop.onclick = function() {
@@ -47,5 +47,5 @@ buttonStop.onclick = function() {
     xhr.setRequestHeader('X-CSRFToken', csrftoken);    
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.setRequestHeader("Accept", "application/json");
-    xhr.send(JSON.stringify({ status: "false" }));
+    xhr.send(JSON.stringify({ status: "false" , ip: ip}));
 };

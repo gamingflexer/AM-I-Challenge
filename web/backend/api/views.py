@@ -12,26 +12,29 @@ from api.camera import VideoCamera
 from django.http import StreamingHttpResponse,HttpResponse
 from firebase_admin import firestore
 import json
-
+from api.location import data
 db = firestore.client()
 
 video_camera = None
 global_frame = None 
-            
 # Video Camera API
 @csrf_exempt
-def camera_index(request):
-    return render(request, 'camera.html')
+def camera_index(request,ip,camera_uid):
+    i=data[data['camera_uid']==int(camera_uid)]
+    camera_info = i.to_dict(orient='records')[0]
+    return render(request, 'camera.html',{'ip':ip,'camera_info':camera_info})
 
 @csrf_exempt
 def record_status(request):
+    data = json.loads(request.body)
+    status = data['status']
+    ip = data['ip']
+    if ip == "":
+        ip = 0
+    
     global video_camera 
     if video_camera == None:
-        video_camera = VideoCamera()
-
-    data = json.loads(request.body)
-
-    status = data['status']
+        video_camera = VideoCamera(ip=ip)
 
     if status == "true":
         video_camera.start_record()
@@ -40,12 +43,19 @@ def record_status(request):
         video_camera.stop_record()
         return HttpResponse(json.dumps({"status":"false"}))
 
-def video_stream():
+def video_stream(ip):
+    if ip == "":
+        ip = 0
+    if ip == "0":
+        ip = 0
+    if len(str(ip).split(".")) == 4:
+        ip = f"rtsp://username:password@{ip}/1"
+    
     global video_camera 
     global global_frame
 
     if video_camera == None:
-        video_camera = VideoCamera()
+        video_camera = VideoCamera(ip=ip)
         
     while True:
         frame = video_camera.get_frame()
@@ -60,8 +70,8 @@ def video_stream():
             
 class video_viewer(APIView):
     @csrf_exempt
-    def get(self, request):
-        return StreamingHttpResponse(video_stream(), content_type='multipart/x-mixed-replace; boundary=frame')
+    def get(self, request,ip):
+        return StreamingHttpResponse(video_stream(ip), content_type='multipart/x-mixed-replace; boundary=frame')
 
 # Create your views here.
 class BaseAPI(APIView):

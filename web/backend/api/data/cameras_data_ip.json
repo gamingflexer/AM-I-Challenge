@@ -1,0 +1,2490 @@
+[
+    {
+        "location": "Ground floor classroom corridor   They are functioning with a monitor in the office room.",
+        "lat": 12.9920608091,
+        "long": 80.2286249263,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/0",
+        "description": "3 Nos.",
+        "camera_uid": 0
+    },
+    {
+        "location": "Outside office room",
+        "lat": 12.9920608091,
+        "long": 80.2286249263,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/1",
+        "description": "1 No.",
+        "camera_uid": 1
+    },
+    {
+        "location": "Bike Parking Area \u2013 4 No.s",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/2",
+        "description": "Working",
+        "camera_uid": 2
+    },
+    {
+        "location": "Cycle parking Area \u2013 4 Nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/3",
+        "description": "\u201c",
+        "camera_uid": 3
+    },
+    {
+        "location": "Building Entrance- 1 No.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/4",
+        "description": "\u201c",
+        "camera_uid": 4
+    },
+    {
+        "location": "Ground Floor- 6 Nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/5",
+        "description": "\u201c",
+        "camera_uid": 5
+    },
+    {
+        "location": "Room No: 007- 5 Nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/6",
+        "description": "\u201c",
+        "camera_uid": 6
+    },
+    {
+        "location": "1st floor corridor left side and right side \u2013 2 Nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/7",
+        "description": "Working",
+        "camera_uid": 7
+    },
+    {
+        "location": "2nd floor corridor left side and right side \u2013 2 nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/8",
+        "description": "\u201c",
+        "camera_uid": 8
+    },
+    {
+        "location": "3rd floor corridor left side and right side \u2013 2 Nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/9",
+        "description": "\u201c",
+        "camera_uid": 9
+    },
+    {
+        "location": "4th floor corridor left side and right side \u2013 2 Nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/10",
+        "description": "\u201c",
+        "camera_uid": 10
+    },
+    {
+        "location": "5th floor corridor left side and right side \u2013 2 Nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/11",
+        "description": "\u201c",
+        "camera_uid": 11
+    },
+    {
+        "location": "5th floor steps left side and right side \u2013 2 Nos.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/12",
+        "description": "\u201c",
+        "camera_uid": 12
+    },
+    {
+        "location": "Hod Office and DCF room no; 508 handling by Mr. Praveen kumar Bio-technology Department and Engineering unit Mr. Sarvesh and Security section from admin block they can see recording.",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/13",
+        "description": "\u201c",
+        "camera_uid": 13
+    },
+    {
+        "location": "Animal House camera  total 13 cameras Room No: 612  can see  live recording handling  by Mr. Devaraj Dr. Rayala Suresh kumar Assistant Ground floor ,1st 2nd 3rd handling by Engineering unit Mr. Sarvesh We can See in 1st floor recording",
+        "lat": 12.9894910091,
+        "long": 80.2275617679,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/14",
+        "description": "Working ",
+        "camera_uid": 14
+    },
+    {
+        "location": "Chemical Engineering Lab (CHL)",
+        "lat": 12.9910236765,
+        "long": 80.2282560324,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/15",
+        "description": "Working",
+        "camera_uid": 15
+    },
+    {
+        "location": "Mechanical Operation Lab",
+        "lat": 12.9910236765,
+        "long": 80.2282560324,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/16",
+        "description": "Working",
+        "camera_uid": 16
+    },
+    {
+        "location": "Transfer Operation Lab",
+        "lat": 12.9910236765,
+        "long": 80.2282560324,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/17",
+        "description": "Working",
+        "camera_uid": 17
+    },
+    {
+        "location": "Ground Floor Corridor",
+        "lat": 12.9910236765,
+        "long": 80.2282560324,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/18",
+        "description": "Working",
+        "camera_uid": 18
+    },
+    {
+        "location": "First Floor corridor",
+        "lat": 12.9910236765,
+        "long": 80.2282560324,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/19",
+        "description": "Working",
+        "camera_uid": 19
+    },
+    {
+        "location": "Polymer Lab (HSB 151 inside)",
+        "lat": 12.9910236765,
+        "long": 80.2282560324,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/20",
+        "description": "Working",
+        "camera_uid": 20
+    },
+    {
+        "location": "NAC Fourth Floor (inside DCF)",
+        "lat": 12.9910236765,
+        "long": 80.2282560324,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/21",
+        "description": "Working",
+        "camera_uid": 21
+    },
+    {
+        "location": "Chemical Office corridor (MSB 126)",
+        "lat": 12.9910236765,
+        "long": 80.2282560324,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/22",
+        "description": "Working",
+        "camera_uid": 22
+    },
+    {
+        "location": "MSB corridor ground floor, 1st floor and 2nd floor (Institute Control)",
+        "lat": 12.9902243362,
+        "long": 80.229340905,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/23",
+        "description": "Working",
+        "camera_uid": 23
+    },
+    {
+        "location": "400 NMR room",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/24",
+        "description": "108",
+        "camera_uid": 24
+    },
+    {
+        "location": "Ground Floor Entrance Right",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/25",
+        "description": "-",
+        "camera_uid": 25
+    },
+    {
+        "location": "Ground Floor Entrance near steps",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/26",
+        "description": "-",
+        "camera_uid": 26
+    },
+    {
+        "location": "First floor opposite to CY Office room",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/27",
+        "description": "Near 210",
+        "camera_uid": 27
+    },
+    {
+        "location": "Second Floor opposite to Seminar Hall",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/28",
+        "description": "Near 310",
+        "camera_uid": 28
+    },
+    {
+        "location": "Second Floor Corridor Left",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/29",
+        "description": "Near 321",
+        "camera_uid": 29
+    },
+    {
+        "location": "Ground Floor Entrance Left",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/30",
+        "description": "-",
+        "camera_uid": 30
+    },
+    {
+        "location": "First floor Corridor Left",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/31",
+        "description": "Near 218",
+        "camera_uid": 31
+    },
+    {
+        "location": "Ground Floor Corridor Left",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/32",
+        "description": "Near 116",
+        "camera_uid": 32
+    },
+    {
+        "location": "Ground Floor Reception",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/33",
+        "description": "-",
+        "camera_uid": 33
+    },
+    {
+        "location": "Second Floor Corridor Right",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/34",
+        "description": "Near 301",
+        "camera_uid": 34
+    },
+    {
+        "location": "First floor Corridor Right",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/35",
+        "description": "Near 201",
+        "camera_uid": 35
+    },
+    {
+        "location": "Common Instrument Lab",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/36",
+        "description": "106",
+        "camera_uid": 36
+    },
+    {
+        "location": "Ground floor Corridor Right",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/37",
+        "description": "101",
+        "camera_uid": 37
+    },
+    {
+        "location": "Old Building Entrance Towards Velachery Gate",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/38",
+        "description": "-",
+        "camera_uid": 38
+    },
+    {
+        "location": "500 NMR inside",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/39",
+        "description": "122",
+        "camera_uid": 39
+    },
+    {
+        "location": "500 NMR room outside facing solvent room",
+        "lat": 12.9882306536,
+        "long": 80.2323399144,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/40",
+        "description": "-",
+        "camera_uid": 40
+    },
+    {
+        "location": "Old Building Entrance Left facing the road",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/41",
+        "description": "-",
+        "camera_uid": 41
+    },
+    {
+        "location": "400 NMR near the instrument",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/42",
+        "description": "108",
+        "camera_uid": 42
+    },
+    {
+        "location": "Common Instrument lab inside",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/43",
+        "description": "106",
+        "camera_uid": 43
+    },
+    {
+        "location": "400 NMR Near Entrance",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/44",
+        "description": "108",
+        "camera_uid": 44
+    },
+    {
+        "location": "400 NMR Near System",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/45",
+        "description": "108",
+        "camera_uid": 45
+    },
+    {
+        "location": "NCCR Entrance Gate Inside",
+        "lat": 12.9884218583,
+        "long": 80.2325338839,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/46",
+        "description": "Near 321",
+        "camera_uid": 46
+    },
+    {
+        "location": "NCCR Entrance Gate Outside",
+        "lat": 12.9884218583,
+        "long": 80.2325338839,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/47",
+        "description": "Towards Raman\nblock",
+        "camera_uid": 47
+    },
+    {
+        "location": "NCCR Ground Floor near Steps",
+        "lat": 12.9884218583,
+        "long": 80.2325338839,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/48",
+        "description": "Near 106B",
+        "camera_uid": 48
+    },
+    {
+        "location": "New Building Entrance above the main door",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/49",
+        "description": "-",
+        "camera_uid": 49
+    },
+    {
+        "location": "New Building Entrance",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/50",
+        "description": "-",
+        "camera_uid": 50
+    },
+    {
+        "location": "New Building Entrance towards the parking",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/51",
+        "description": "-",
+        "camera_uid": 51
+    },
+    {
+        "location": "New Building Entrance inside facing the door",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/52",
+        "description": "-",
+        "camera_uid": 52
+    },
+    {
+        "location": "New Building Ground Floor Corridor Left",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/53",
+        "description": "Near 151",
+        "camera_uid": 53
+    },
+    {
+        "location": "New Building Ground Floor Corridor center steps",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/54",
+        "description": "-",
+        "camera_uid": 54
+    },
+    {
+        "location": "New Building Ground Floor Corridor Right",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/55",
+        "description": "Near 157",
+        "camera_uid": 55
+    },
+    {
+        "location": "First Floor towards Classroom",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/56",
+        "description": "-",
+        "camera_uid": 56
+    },
+    {
+        "location": "First Floor Corridor Left",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/57",
+        "description": "Near 251",
+        "camera_uid": 57
+    },
+    {
+        "location": "First Floor Corridor Right",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/58",
+        "description": "Near 258",
+        "camera_uid": 58
+    },
+    {
+        "location": "Second Floor towards Lift",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/59",
+        "description": "-",
+        "camera_uid": 59
+    },
+    {
+        "location": "Second Floor Corridor Left",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/60",
+        "description": "Near 351",
+        "camera_uid": 60
+    },
+    {
+        "location": "Second Floor Corridor Right",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/61",
+        "description": "Near 358",
+        "camera_uid": 61
+    },
+    {
+        "location": "Ground Floor Back Side Steps",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/62",
+        "description": "-",
+        "camera_uid": 62
+    },
+    {
+        "location": "Ground Floor Back side near solvent room",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/63",
+        "description": "-",
+        "camera_uid": 63
+    },
+    {
+        "location": "Ground Floor Back side towards solvent room",
+        "lat": 12.9878856055,
+        "long": 80.2318640123,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/64",
+        "description": "-",
+        "camera_uid": 64
+    },
+    {
+        "location": "GF- WORKSHOP-102",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.181\/65",
+        "description": "",
+        "camera_uid": 65
+    },
+    {
+        "location": "GF-RM-102",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.170\/66",
+        "description": "",
+        "camera_uid": 66
+    },
+    {
+        "location": "GF-WORKSHOP BACK EXIT",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.153\/67",
+        "description": "",
+        "camera_uid": 67
+    },
+    {
+        "location": "GF-LIFT CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.39\/68",
+        "description": "",
+        "camera_uid": 68
+    },
+    {
+        "location": "GF- CASTING YARD ENTRANCE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.175\/69",
+        "description": "",
+        "camera_uid": 69
+    },
+    {
+        "location": "GF-GENTS TOILET CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.173\/70",
+        "description": "",
+        "camera_uid": 70
+    },
+    {
+        "location": "GF-RM-129",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.164\/71",
+        "description": "",
+        "camera_uid": 71
+    },
+    {
+        "location": "GF-RM-127",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.165\/72",
+        "description": "",
+        "camera_uid": 72
+    },
+    {
+        "location": "GF-PAVEMENT LAB EXIT",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.154\/73",
+        "description": "",
+        "camera_uid": 73
+    },
+    {
+        "location": "GF-RM-124",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.182\/74",
+        "description": "",
+        "camera_uid": 74
+    },
+    {
+        "location": "GF-RM 128 CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.51\/75",
+        "description": "",
+        "camera_uid": 75
+    },
+    {
+        "location": "GF-RM 127 CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.174\/76",
+        "description": "",
+        "camera_uid": 76
+    },
+    {
+        "location": "GF-RM-133-RIGHT SIDE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.42\/77",
+        "description": "",
+        "camera_uid": 77
+    },
+    {
+        "location": "GF-RM-133-LEFT SIDE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.18\/78",
+        "description": "",
+        "camera_uid": 78
+    },
+    {
+        "location": "GF-RM-132",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.152\/79",
+        "description": "",
+        "camera_uid": 79
+    },
+    {
+        "location": "GF-NEAR RM-135 WORKSHOP",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.160\/80",
+        "description": "",
+        "camera_uid": 80
+    },
+    {
+        "location": "GF-SOLID DYNAMICS LAB",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.183\/81",
+        "description": "",
+        "camera_uid": 81
+    },
+    {
+        "location": "GF-RM-135-CORRIDOR GATE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.162\/82",
+        "description": "",
+        "camera_uid": 82
+    },
+    {
+        "location": "GF-CONCRETE LAB",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.180\/83",
+        "description": "",
+        "camera_uid": 83
+    },
+    {
+        "location": "GF-PAVEMENT LAB OFFICE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.179\/84",
+        "description": "",
+        "camera_uid": 84
+    },
+    {
+        "location": "GF-CASTING YARD MACHINE LAB",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.168\/85",
+        "description": "",
+        "camera_uid": 85
+    },
+    {
+        "location": "GF-PAVEMENT LAB",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.172\/86",
+        "description": "",
+        "camera_uid": 86
+    },
+    {
+        "location": "GF-RM-101C-CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.151\/87",
+        "description": "",
+        "camera_uid": 87
+    },
+    {
+        "location": "GF-MTS LAB-1",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.12\/88",
+        "description": "",
+        "camera_uid": 88
+    },
+    {
+        "location": "GF-MTS LAB ENTRANCE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.31\/89",
+        "description": "",
+        "camera_uid": 89
+    },
+    {
+        "location": "GF-MTS LAB EXIT",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.52\/90",
+        "description": "",
+        "camera_uid": 90
+    },
+    {
+        "location": "GF-DCF LAB",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.159\/91",
+        "description": "",
+        "camera_uid": 91
+    },
+    {
+        "location": "GF-DCF LAB ENTRANCE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.178\/92",
+        "description": "",
+        "camera_uid": 92
+    },
+    {
+        "location": "GF-RM-103 CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.150\/93",
+        "description": "",
+        "camera_uid": 93
+    },
+    {
+        "location": "GF-MAIN ENTRANCE STAIRCASE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.161\/94",
+        "description": "",
+        "camera_uid": 94
+    },
+    {
+        "location": "GF- RM-106 CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.130\/95",
+        "description": "",
+        "camera_uid": 95
+    },
+    {
+        "location": "FF-FEMALE TOILET STARICASE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.131\/96",
+        "description": "",
+        "camera_uid": 96
+    },
+    {
+        "location": "FF-NEAR RM-201 INSIDE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.132\/97",
+        "description": "",
+        "camera_uid": 97
+    },
+    {
+        "location": "FF-STAIRCASE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.133\/98",
+        "description": "",
+        "camera_uid": 98
+    },
+    {
+        "location": "FF-RM-230-CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.134\/99",
+        "description": "",
+        "camera_uid": 99
+    },
+    {
+        "location": "FF-RM-228A-1",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.135\/100",
+        "description": "",
+        "camera_uid": 100
+    },
+    {
+        "location": "FF-RM-228A-2",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.136\/101",
+        "description": "",
+        "camera_uid": 101
+    },
+    {
+        "location": "FF-RM-228-3",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.137\/102",
+        "description": "",
+        "camera_uid": 102
+    },
+    {
+        "location": "FF-RM-238",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.138\/103",
+        "description": "",
+        "camera_uid": 103
+    },
+    {
+        "location": "FF- GENTS TOILET STAIRCASE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.139\/104",
+        "description": "",
+        "camera_uid": 104
+    },
+    {
+        "location": "FF- ITS LAB CORRIODR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.140\/105",
+        "description": "",
+        "camera_uid": 105
+    },
+    {
+        "location": "FF-EMULSION LAB",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.141\/106",
+        "description": "",
+        "camera_uid": 106
+    },
+    {
+        "location": "FF-RM 237-SEMINAR HALL",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.142\/107",
+        "description": "",
+        "camera_uid": 107
+    },
+    {
+        "location": "GF-TESTING FACILITY AREA",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.143\/108",
+        "description": "",
+        "camera_uid": 108
+    },
+    {
+        "location": "GF-MAIN ENTRANCE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.144\/109",
+        "description": "",
+        "camera_uid": 109
+    },
+    {
+        "location": "GF-BIKE PARKING",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.145\/110",
+        "description": "",
+        "camera_uid": 110
+    },
+    {
+        "location": "GF- WORKSHOP BACKSIDE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.146\/111",
+        "description": "",
+        "camera_uid": 111
+    },
+    {
+        "location": "GF- WORKSHOP ENTRANCE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.147\/112",
+        "description": "",
+        "camera_uid": 112
+    },
+    {
+        "location": "GF0RM-102-STR CORRIODR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.148\/113",
+        "description": "",
+        "camera_uid": 113
+    },
+    {
+        "location": "GF- ROAD FACING BIOTECH-1 PUMP R",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.149\/114",
+        "description": "",
+        "camera_uid": 114
+    },
+    {
+        "location": "GF-GENTS TOILET CORRIDOR-RM 122",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.150\/115",
+        "description": "",
+        "camera_uid": 115
+    },
+    {
+        "location": "GF-CASTING YARD BACKSIDE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.151\/116",
+        "description": "",
+        "camera_uid": 116
+    },
+    {
+        "location": "GF-PAVEMENT LAB",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.152\/117",
+        "description": "",
+        "camera_uid": 117
+    },
+    {
+        "location": "GF-RM-125",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.153\/118",
+        "description": "",
+        "camera_uid": 118
+    },
+    {
+        "location": "GF-CASTING YARD STAIRCASE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.154\/119",
+        "description": "",
+        "camera_uid": 119
+    },
+    {
+        "location": "FF-RM-235 CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.155\/120",
+        "description": "",
+        "camera_uid": 120
+    },
+    {
+        "location": "FF-ITS LAB ENTRANCE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.168.1.156\/121",
+        "description": "",
+        "camera_uid": 121
+    },
+    {
+        "location": "BSB RW LEFT",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.30\/122",
+        "description": "",
+        "camera_uid": 122
+    },
+    {
+        "location": "BSB RW RIGHT",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.29\/123",
+        "description": "",
+        "camera_uid": 123
+    },
+    {
+        "location": "BSB RW STAIRCASE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.27\/124",
+        "description": "",
+        "camera_uid": 124
+    },
+    {
+        "location": "BSB FW LEFT",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.34\/125",
+        "description": "",
+        "camera_uid": 125
+    },
+    {
+        "location": "BSB FW RIGHT",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.28\/126",
+        "description": "",
+        "camera_uid": 126
+    },
+    {
+        "location": "BSB FW ENTRANCE",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.32\/127",
+        "description": "",
+        "camera_uid": 127
+    },
+    {
+        "location": "BSB CORR LIFT",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.31\/128",
+        "description": "",
+        "camera_uid": 128
+    },
+    {
+        "location": "BSB RW RSB",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.36\/129",
+        "description": "",
+        "camera_uid": 129
+    },
+    {
+        "location": "BSB DCF CORRIDOR",
+        "lat": 12.9899352853,
+        "long": 80.2290027965,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/192.171.1.35\/130",
+        "description": "",
+        "camera_uid": 130
+    },
+    {
+        "location": "Ten cameras installed at CWS premises are working",
+        "lat": 12.9917514541,
+        "long": 80.2309984149,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/131",
+        "description": "",
+        "camera_uid": 131
+    },
+    {
+        "location": "We have requested Engineering unit to install 5 more cameras.",
+        "lat": 12.9917514541,
+        "long": 80.2309984149,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/132",
+        "description": "",
+        "camera_uid": 132
+    },
+    {
+        "location": "The cameras at Auto shop near Velachery Gate are under maintenance.  \n\n",
+        "lat": 12.9917514541,
+        "long": 80.2309984149,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/133",
+        "description": "",
+        "camera_uid": 133
+    },
+    {
+        "location": "Entry point",
+        "lat": 12.9890295781,
+        "long": 80.2290285256,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/134",
+        "description": "3 Nos.",
+        "camera_uid": 134
+    },
+    {
+        "location": "Inside Data Centre",
+        "lat": 12.9890295781,
+        "long": 80.2290285256,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/135",
+        "description": "25 Nos.",
+        "camera_uid": 135
+    },
+    {
+        "location": "CSB + DCF Zone",
+        "lat": 12.9888414003,
+        "long": 80.2295300987,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/136",
+        "description": "23 Nos.",
+        "camera_uid": 136
+    },
+    {
+        "location": "BSB - II Floor \nis in WORKING condition.",
+        "lat": 12.9891351908,
+        "long": 80.2291617585,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/137",
+        "description": "7 Nos.",
+        "camera_uid": 137
+    },
+    {
+        "location": "SSB\n- WORKING and\u00a0 it's under warranty and it should be increased (12 cameras) to cover parking areas and some more places to cover.",
+        "lat": 12.9892362873,
+        "long": 80.2297921596,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/138",
+        "description": "20 Nos.",
+        "camera_uid": 138
+    },
+    {
+        "location": "ESB",
+        "lat": 12.9887562958,
+        "long": 80.230766854,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/139",
+        "description": "62 Nos.\n(43 in working condition)",
+        "camera_uid": 139
+    },
+    {
+        "location": " All stairs and corridors are covered in ESB and CSD",
+        "lat": 12.9887562958,
+        "long": 80.230766854,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/140",
+        "description": "",
+        "camera_uid": 140
+    },
+    {
+        "location": "The interiors of individual rooms and labs are\u00a0not covered.",
+        "lat": 12.9887562958,
+        "long": 80.230766854,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/141",
+        "description": "",
+        "camera_uid": 141
+    },
+    {
+        "location": "Parking area",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/142",
+        "description": "1",
+        "camera_uid": 142
+    },
+    {
+        "location": "Department entrance",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/143",
+        "description": "2",
+        "camera_uid": 143
+    },
+    {
+        "location": "Entrance Corridor",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/144",
+        "description": "2",
+        "camera_uid": 144
+    },
+    {
+        "location": "Nearby Conference Room ED103",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/145",
+        "description": "1",
+        "camera_uid": 145
+    },
+    {
+        "location": "Nearby HoD Room ED104",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/146",
+        "description": "1",
+        "camera_uid": 146
+    },
+    {
+        "location": "Nearby Cybernetik Centre ED107",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/147",
+        "description": "1",
+        "camera_uid": 147
+    },
+    {
+        "location": "Ground Floor- Lift -I (left side corner)  ",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/148",
+        "description": "1",
+        "camera_uid": 148
+    },
+    {
+        "location": "Exit Door ",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/149",
+        "description": "1",
+        "camera_uid": 149
+    },
+    {
+        "location": "Inside ED119 Lab",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/150",
+        "description": "3",
+        "camera_uid": 150
+    },
+    {
+        "location": "Lift - I (left side corner) Nearby ED218",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/151",
+        "description": "1",
+        "camera_uid": 151
+    },
+    {
+        "location": "Lift - II (left side corner) Nearby ED203 ",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/152",
+        "description": "1",
+        "camera_uid": 152
+    },
+    {
+        "location": "Lift - II (right side corner) Nearby ED206",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/153",
+        "description": "1",
+        "camera_uid": 153
+    },
+    {
+        "location": "Nearby HoD Room ED209",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/154",
+        "description": "1",
+        "camera_uid": 154
+    },
+    {
+        "location": "Lift - I (left side corner) Nearby ED318",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/155",
+        "description": "1",
+        "camera_uid": 155
+    },
+    {
+        "location": "Lift - II (left side corner) Nearby ED304",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/156",
+        "description": "1",
+        "camera_uid": 156
+    },
+    {
+        "location": "Lift - II (right side corner) Nearby ED306",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/157",
+        "description": "1",
+        "camera_uid": 157
+    },
+    {
+        "location": "Nearby HoD Room ED309",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/158",
+        "description": "1",
+        "camera_uid": 158
+    },
+    {
+        "location": "Lift - I (left side corner) Nearby ED422",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/159",
+        "description": "1",
+        "camera_uid": 159
+    },
+    {
+        "location": "Lift - II (left side corner) Nearby ED404",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/160",
+        "description": "1",
+        "camera_uid": 160
+    },
+    {
+        "location": "Lift - II (right side corner) Nearby ED406",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/161",
+        "description": "1",
+        "camera_uid": 161
+    },
+    {
+        "location": "Nearby HoD Room ED410",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/162",
+        "description": "1",
+        "camera_uid": 162
+    },
+    {
+        "location": "Lift \u2013 I (left side corner) ",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/163",
+        "description": "1",
+        "camera_uid": 163
+    },
+    {
+        "location": "Lift \u2013 II (left side corner) ",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/164",
+        "description": "1",
+        "camera_uid": 164
+    },
+    {
+        "location": "Nearby ED507 (Outside) ",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/165",
+        "description": "1",
+        "camera_uid": 165
+    },
+    {
+        "location": "Nearby ED525 (Outside)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/166",
+        "description": "1",
+        "camera_uid": 166
+    },
+    {
+        "location": "Nearby ED526 (Inside)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/167",
+        "description": "1",
+        "camera_uid": 167
+    },
+    {
+        "location": "Nearby ED501 (Inside)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/168",
+        "description": "1",
+        "camera_uid": 168
+    },
+    {
+        "location": "Nearby ED504 (Inside)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/169",
+        "description": "1",
+        "camera_uid": 169
+    },
+    {
+        "location": "Nearby ED505 (Inside)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/170",
+        "description": "1",
+        "camera_uid": 170
+    },
+    {
+        "location": "Nearby ED506 (Inside)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/171",
+        "description": "1",
+        "camera_uid": 171
+    },
+    {
+        "location": "Nearby ED506(Outside)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/172",
+        "description": "1",
+        "camera_uid": 172
+    },
+    {
+        "location": "Nearby ED509 (Outside)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/173",
+        "description": "1",
+        "camera_uid": 173
+    },
+    {
+        "location": "Terrace (ED-2, EWRE -1)",
+        "lat": 12.9898337209,
+        "long": 80.2264149913,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/174",
+        "description": "3 ",
+        "camera_uid": 174
+    },
+    {
+        "location": "First Floor - 10.21.104.132:8000",
+        "lat": 12.989950755,
+        "long": 80.2319943225,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/175",
+        "description": " 4 Nos.",
+        "camera_uid": 175
+    },
+    {
+        "location": "Second Floor - 10.21.98.107:800",
+        "lat": 12.989950755,
+        "long": 80.2319943225,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/176",
+        "description": "8 Nos.",
+        "camera_uid": 176
+    },
+    {
+        "location": "Office area",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/177",
+        "description": "1 No. working",
+        "camera_uid": 177
+    },
+    {
+        "location": "Main Entrance",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/178",
+        "description": "2 Nos. working",
+        "camera_uid": 178
+    },
+    {
+        "location": "Reception ",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/179",
+        "description": "1No. working",
+        "camera_uid": 179
+    },
+    {
+        "location": "OPD I",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/180",
+        "description": "2 Nos. working",
+        "camera_uid": 180
+    },
+    {
+        "location": "OPD II",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/181",
+        "description": "1 No. working",
+        "camera_uid": 181
+    },
+    {
+        "location": "Pharmacy",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/182",
+        "description": "3 Nos. working",
+        "camera_uid": 182
+    },
+    {
+        "location": "Fever OPD",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/183",
+        "description": "1No. working",
+        "camera_uid": 183
+    },
+    {
+        "location": "OT Entrance",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/184",
+        "description": "1 No. working",
+        "camera_uid": 184
+    },
+    {
+        "location": "Ward GF",
+        "lat": 12.9929540744,
+        "long": 80.2314650789,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/185",
+        "description": "1 No. working",
+        "camera_uid": 185
+    },
+    {
+        "location": "Ward Upstairs  ",
+        "lat": 12.993273862,
+        "long": 80.2317033555,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/186",
+        "description": "1 No.  Not working",
+        "camera_uid": 186
+    },
+    {
+        "location": "NEW OPD GF",
+        "lat": 12.993273862,
+        "long": 80.2317033555,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/187",
+        "description": "2 Nos. working",
+        "camera_uid": 187
+    },
+    {
+        "location": "New OPD Upstairs",
+        "lat": 12.993273862,
+        "long": 80.2317033555,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/188",
+        "description": " 2 Nos. working",
+        "camera_uid": 188
+    },
+    {
+        "location": "X-Ray & Physiotherapy",
+        "lat": 12.993211609,
+        "long": 80.2314308454,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/189",
+        "description": "2 Nos. working",
+        "camera_uid": 189
+    },
+    {
+        "location": "Backside Entrance",
+        "lat": 12.993211609,
+        "long": 80.2314308454,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/190",
+        "description": "1 No. working",
+        "camera_uid": 190
+    },
+    {
+        "location": "Housekeeping & Washing room",
+        "lat": 12.993211609,
+        "long": 80.2314308454,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/191",
+        "description": "1 No. working",
+        "camera_uid": 191
+    },
+    {
+        "location": "1st Floor Corridor",
+        "lat": 12.9897985595,
+        "long": 80.2268126916,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/192",
+        "description": "4 Nos. working",
+        "camera_uid": 192
+    },
+    {
+        "location": "Ground Floor Corridor\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0",
+        "lat": 12.9897985595,
+        "long": 80.2268126916,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/193",
+        "description": "3 Nos. working",
+        "camera_uid": 193
+    },
+    {
+        "location": "Rear side of office",
+        "lat": 12.9897985595,
+        "long": 80.2268126916,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/194",
+        "description": "1 No. working",
+        "camera_uid": 194
+    },
+    {
+        "location": "NAC 524 -\u00a0Department Office Lobby",
+        "lat": 12.993320613,
+        "long": 80.2301987659,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/195",
+        "description": "1 No. ",
+        "camera_uid": 195
+    },
+    {
+        "location": "NAC 523A - Conference Room Lobby",
+        "lat": 12.993320613,
+        "long": 80.2301987659,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/196",
+        "description": "\u201c",
+        "camera_uid": 196
+    },
+    {
+        "location": "NAC 518 - Classroom Lobby",
+        "lat": 12.993320613,
+        "long": 80.2301987659,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/197",
+        "description": "\u201c",
+        "camera_uid": 197
+    },
+    {
+        "location": "NAC 618 - Research Scholar room Lobby",
+        "lat": 12.993320613,
+        "long": 80.2301987659,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/198",
+        "description": "\u201c",
+        "camera_uid": 198
+    },
+    {
+        "location": "There are other cameras installed by the Institute",
+        "lat": 12.993320613,
+        "long": 80.2301987659,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/199",
+        "description": "",
+        "camera_uid": 199
+    },
+    {
+        "location": "",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/200",
+        "description": "2 Nos.",
+        "camera_uid": 200
+    },
+    {
+        "location": "DoMS 403  ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/201",
+        "description": "2 Nos.",
+        "camera_uid": 201
+    },
+    {
+        "location": "DoMS 252  ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/202",
+        "description": "1 No.",
+        "camera_uid": 202
+    },
+    {
+        "location": "DoMS 253  ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/203",
+        "description": "1 No.",
+        "camera_uid": 203
+    },
+    {
+        "location": "Scholars Lab - DoMS 405 - 2 Nos",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/204",
+        "description": "2 Nos.",
+        "camera_uid": 204
+    },
+    {
+        "location": "MBA Lab - DoMS 255 - 2 Nos",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/205",
+        "description": "2 Nos.",
+        "camera_uid": 205
+    },
+    {
+        "location": "Ground Floor Entrance, Lobby, Rear side staircase - 6 Nos",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/206",
+        "description": "6 Nos.",
+        "camera_uid": 206
+    },
+    {
+        "location": "Stack I - Entrance and rear \u00a0 ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/207",
+        "description": "2 Nos.",
+        "camera_uid": 207
+    },
+    {
+        "location": "First Floor Lobby \u00a0 ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/208",
+        "description": "1 No.",
+        "camera_uid": 208
+    },
+    {
+        "location": "Stack II - Entrance and rear \u00a0 ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/209",
+        "description": "2 Nos.",
+        "camera_uid": 209
+    },
+    {
+        "location": "Stack III - Entrance and Rear  ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/210",
+        "description": "2 Nos.",
+        "camera_uid": 210
+    },
+    {
+        "location": "Second Floor Lobby  ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/211",
+        "description": "1 No.",
+        "camera_uid": 211
+    },
+    {
+        "location": "Fourth Stack -Entrance and rear \u00a0 ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/212",
+        "description": "2 Nos.",
+        "camera_uid": 212
+    },
+    {
+        "location": "Rear Stair case steps  ",
+        "lat": 12.9916474127,
+        "long": 80.2345301467,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/213",
+        "description": "4 Nos.",
+        "camera_uid": 213
+    },
+    {
+        "location": "RAC lab",
+        "lat": 12.9927068418,
+        "long": 80.2291658947,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/214",
+        "description": "7",
+        "camera_uid": 214
+    },
+    {
+        "location": "IC Engines Lab",
+        "lat": 12.9919978695,
+        "long": 80.2292940609,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/215",
+        "description": "5 (1 not working)",
+        "camera_uid": 215
+    },
+    {
+        "location": "Machine Design Section ",
+        "lat": 12.9919110688,
+        "long": 80.2268513825,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/216",
+        "description": "8",
+        "camera_uid": 216
+    },
+    {
+        "location": "Heat Transfer and Thermal\n Power Lab",
+        "lat": 12.9920215082,
+        "long": 80.2296504167,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/217",
+        "description": "10 (1 not working)",
+        "camera_uid": 217
+    },
+    {
+        "location": "Fluid Systems Lab",
+        "lat": 12.9927196869,
+        "long": 80.2280114457,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/218",
+        "description": "10",
+        "camera_uid": 218
+    },
+    {
+        "location": "TDCE",
+        "lat": 12.9929343673,
+        "long": 80.2295122257,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/219",
+        "description": "5",
+        "camera_uid": 219
+    },
+    {
+        "location": "Manufacturing Engineering Section\n2 cameras inside MTL\n1 camera outside MTL (corridor)\n3 cameras in gnd floor of MES\n1 camera at 1st floor of MES\n1 camera at PEIL enterance MSB",
+        "lat": 12.9911638946,
+        "long": 80.2298162718,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/220",
+        "description": "8",
+        "camera_uid": 220
+    },
+    {
+        "location": "UG-PG Lab I",
+        "lat": 12.9911638946,
+        "long": 80.2298162718,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/221",
+        "description": "1 (not working)",
+        "camera_uid": 221
+    },
+    {
+        "location": "UG-PG Lab II",
+        "lat": 12.9911638946,
+        "long": 80.2298162718,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/222",
+        "description": "1",
+        "camera_uid": 222
+    },
+    {
+        "location": "UG-PG Lab III",
+        "lat": 12.9911638946,
+        "long": 80.2298162718,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/223",
+        "description": "0",
+        "camera_uid": 223
+    },
+    {
+        "location": "Main Entrance",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/224",
+        "description": "Working",
+        "camera_uid": 224
+    },
+    {
+        "location": "Office",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/225",
+        "description": "\u201c",
+        "camera_uid": 225
+    },
+    {
+        "location": "DCF",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/226",
+        "description": "\u201c",
+        "camera_uid": 226
+    },
+    {
+        "location": "DCF",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/227",
+        "description": "\u201c",
+        "camera_uid": 227
+    },
+    {
+        "location": "Path way to Gas hydrates Lab",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/228",
+        "description": "\u201c",
+        "camera_uid": 228
+    },
+    {
+        "location": "Path way to Gas hydrates Lab",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/229",
+        "description": "\u201c",
+        "camera_uid": 229
+    },
+    {
+        "location": "Path Way to Dynamics Lab",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/230",
+        "description": "\u201c",
+        "camera_uid": 230
+    },
+    {
+        "location": "Path Way to Outside RSB",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/231",
+        "description": "\u201c",
+        "camera_uid": 231
+    },
+    {
+        "location": "2 Meter Flume",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/232",
+        "description": "\u201c",
+        "camera_uid": 232
+    },
+    {
+        "location": "2 Meter Flume Cabin",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/233",
+        "description": "\u201c",
+        "camera_uid": 233
+    },
+    {
+        "location": "Glass flume",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/234",
+        "description": "\u201c",
+        "camera_uid": 234
+    },
+    {
+        "location": "Ground Floor path way to RSB",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/235",
+        "description": "\u201c",
+        "camera_uid": 235
+    },
+    {
+        "location": "4-meter flume entrance",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/236",
+        "description": "\u201c",
+        "camera_uid": 236
+    },
+    {
+        "location": "Adjunt Buiding first ladder path way",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/237",
+        "description": "\u201c",
+        "camera_uid": 237
+    },
+    {
+        "location": "Adjunt Buiding Second ladder path way",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/238",
+        "description": "\u201c",
+        "camera_uid": 238
+    },
+    {
+        "location": "Adjunt Buiding Second ladder path way",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/239",
+        "description": "\u201c",
+        "camera_uid": 239
+    },
+    {
+        "location": "Shallow Fume",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/240",
+        "description": "Not working",
+        "camera_uid": 240
+    },
+    {
+        "location": "pathway to Flume Shutter",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/241",
+        "description": "\u201c",
+        "camera_uid": 241
+    },
+    {
+        "location": "workshop Entrance",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/242",
+        "description": "\u201c",
+        "camera_uid": 242
+    },
+    {
+        "location": "pathway to shutter",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/243",
+        "description": "\u201c",
+        "camera_uid": 243
+    },
+    {
+        "location": "flume",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/244",
+        "description": "\u201c",
+        "camera_uid": 244
+    },
+    {
+        "location": "flume",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/245",
+        "description": "\u201c",
+        "camera_uid": 245
+    },
+    {
+        "location": "flume",
+        "lat": 12.990574281,
+        "long": 80.2265785124,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/246",
+        "description": "\u201c",
+        "camera_uid": 246
+    },
+    {
+        "location": "Ground floor, NMR solution state, Room No.01",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/247",
+        "description": "Working",
+        "camera_uid": 247
+    },
+    {
+        "location": "Ground floor, HRSEM, Room No.03",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/248",
+        "description": "\u201c",
+        "camera_uid": 248
+    },
+    {
+        "location": "Ground floor, WET lab, Room No.05",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/249",
+        "description": "\u201c",
+        "camera_uid": 249
+    },
+    {
+        "location": "Ground floor, ICP OES , Room No.06",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/250",
+        "description": "\u201c",
+        "camera_uid": 250
+    },
+    {
+        "location": "Ground floor, EPR & VSM, Room No.07",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/251",
+        "description": "\u201c",
+        "camera_uid": 251
+    },
+    {
+        "location": "Ground floor, NMR solid state, Room No.08",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/252",
+        "description": "\u201c",
+        "camera_uid": 252
+    },
+    {
+        "location": "Ground floor, SAIF Main Entrance ",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/253",
+        "description": "\u201c",
+        "camera_uid": 253
+    },
+    {
+        "location": "Ground floor, Bio metric Entry door ",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/254",
+        "description": "\u201c",
+        "camera_uid": 254
+    },
+    {
+        "location": "First floor, SAIF Office, Room No.13",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/255",
+        "description": "\u201c",
+        "camera_uid": 255
+    },
+    {
+        "location": "First floor, FT IR , Room No.18",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/256",
+        "description": "\u201c",
+        "camera_uid": 256
+    },
+    {
+        "location": "First floor, Corridor ",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/257",
+        "description": "\u201c",
+        "camera_uid": 257
+    },
+    {
+        "location": "Second floor, Electronics lab, Room No.21",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/258",
+        "description": "\u201c",
+        "camera_uid": 258
+    },
+    {
+        "location": "Second floor, TG-DSC lab, Room No.23",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/259",
+        "description": "\u201c",
+        "camera_uid": 259
+    },
+    {
+        "location": "Second floor, FT RAMAN, Room No.24",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/260",
+        "description": "\u201c",
+        "camera_uid": 260
+    },
+    {
+        "location": "Second floor, CHNSO, Room No.26",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/261",
+        "description": "\u201c",
+        "camera_uid": 261
+    },
+    {
+        "location": "Second floor, UV \u2013Vis- NIR, Room No.27",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/262",
+        "description": "\u201c",
+        "camera_uid": 262
+    },
+    {
+        "location": "Second floor, Corridor",
+        "lat": 12.98952081,
+        "long": 80.23155569,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/263",
+        "description": "\u201c",
+        "camera_uid": 263
+    },
+    {
+        "location": "S XRD - HSB 142 C",
+        "lat": 12.9898789753,
+        "long": 80.2318509037,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/264",
+        "description": "Working",
+        "camera_uid": 264
+    },
+    {
+        "location": "S XRD (Data collection room) - HSB 142 C",
+        "lat": 12.9898789753,
+        "long": 80.2318509037,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/265",
+        "description": "\u201c",
+        "camera_uid": 265
+    },
+    {
+        "location": "New VSM  - HSB 142 B",
+        "lat": 12.9898789753,
+        "long": 80.2318509037,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/266",
+        "description": "\u201c",
+        "camera_uid": 266
+    },
+    {
+        "location": "New VSM (Towards main entry) - HSB 142 B",
+        "lat": 12.9898789753,
+        "long": 80.2318509037,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/267",
+        "description": "\u201c",
+        "camera_uid": 267
+    },
+    {
+        "location": "UHPLC QTOF HRMS - HSB 142 A",
+        "lat": 12.9898789753,
+        "long": 80.2318509037,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/268",
+        "description": "\u201c",
+        "camera_uid": 268
+    },
+    {
+        "location": "GC- MS - HSB 142 A",
+        "lat": 12.9898789753,
+        "long": 80.2318509037,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/269",
+        "description": "\u201c",
+        "camera_uid": 269
+    },
+    {
+        "location": "Placement office HSB Entrance",
+        "lat": 12.9904806352,
+        "long": 80.232163952,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/270",
+        "description": "Ground",
+        "camera_uid": 270
+    },
+    {
+        "location": "Ramanujam Class Room (Annex) Corridor",
+        "lat": 12.9901080267,
+        "long": 80.2322410861,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/271",
+        "description": "Ground",
+        "camera_uid": 271
+    },
+    {
+        "location": "HSB 116A  Corridor",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/272",
+        "description": "Ground",
+        "camera_uid": 272
+    },
+    {
+        "location": "HSB 129 LT Lab view (Inside)",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/273",
+        "description": "Ground",
+        "camera_uid": 273
+    },
+    {
+        "location": "HSB 129 LT Corridor",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/274",
+        "description": "Ground",
+        "camera_uid": 274
+    },
+    {
+        "location": "HSB 129 LT Lab (Inside)",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/275",
+        "description": "Ground",
+        "camera_uid": 275
+    },
+    {
+        "location": "HSB 129 LT Lab2 (Inside)",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/276",
+        "description": "Ground",
+        "camera_uid": 276
+    },
+    {
+        "location": "HSB 129 LT Gas Bag (Inside)",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/277",
+        "description": "Ground",
+        "camera_uid": 277
+    },
+    {
+        "location": "HSB 104A Department Entrance",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/278",
+        "description": "Ground",
+        "camera_uid": 278
+    },
+    {
+        "location": "HSB 108 Department Workshop Corridor",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/279",
+        "description": "Ground",
+        "camera_uid": 279
+    },
+    {
+        "location": "HSB 122 CGBS Corridor",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/280",
+        "description": "Ground",
+        "camera_uid": 280
+    },
+    {
+        "location": "HSB 140 PPMS & XRD Corridor",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/281",
+        "description": "Ground",
+        "camera_uid": 281
+    },
+    {
+        "location": "HSB 140B XRD1 (Inside)",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/282",
+        "description": "Ground",
+        "camera_uid": 282
+    },
+    {
+        "location": "HSB 140B XRD2  (Inside)",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/283",
+        "description": "Ground",
+        "camera_uid": 283
+    },
+    {
+        "location": "HSB 201 TGA\/DSC (Inside)",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/284",
+        "description": "First",
+        "camera_uid": 284
+    },
+    {
+        "location": "HSB 201 DA Water room (Inside)",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/285",
+        "description": "First",
+        "camera_uid": 285
+    },
+    {
+        "location": "HSB 201 Raman Spectrocopy (Inside)",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/286",
+        "description": "First",
+        "camera_uid": 286
+    },
+    {
+        "location": "HSB 201 AFM (Inside)",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/287",
+        "description": "First",
+        "camera_uid": 287
+    },
+    {
+        "location": "HSB 201 XRD (Inside)",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/288",
+        "description": "First",
+        "camera_uid": 288
+    },
+    {
+        "location": "HSB 210 SN Bose Hall Corner",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/289",
+        "description": "First",
+        "camera_uid": 289
+    },
+    {
+        "location": "HSB 225 Corner",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/290",
+        "description": "First",
+        "camera_uid": 290
+    },
+    {
+        "location": "HSB 226 DCF (Inside)",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/291",
+        "description": "First",
+        "camera_uid": 291
+    },
+    {
+        "location": "HSB 236 Corridor",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/292",
+        "description": "First",
+        "camera_uid": 292
+    },
+    {
+        "location": "HSB 237B M.Tech Lab Corridor",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/293",
+        "description": "First",
+        "camera_uid": 293
+    },
+    {
+        "location": "HSB 242 Corridor",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/294",
+        "description": "First",
+        "camera_uid": 294
+    },
+    {
+        "location": "HSB 248A Staircase",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/295",
+        "description": "First",
+        "camera_uid": 295
+    },
+    {
+        "location": "HSB 256 Corridor",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/296",
+        "description": "First",
+        "camera_uid": 296
+    },
+    {
+        "location": "HSB 263 Staircase",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/297",
+        "description": "First",
+        "camera_uid": 297
+    },
+    {
+        "location": "HSB 267 Corridor",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/298",
+        "description": "First",
+        "camera_uid": 298
+    },
+    {
+        "location": "HSB 204 Corridor",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/299",
+        "description": "First",
+        "camera_uid": 299
+    },
+    {
+        "location": "HSB 206 Department Office",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/300",
+        "description": "First",
+        "camera_uid": 300
+    },
+    {
+        "location": "HSB 218 Staircase",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/301",
+        "description": "First",
+        "camera_uid": 301
+    },
+    {
+        "location": "HSB 222 Microwave Lab",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/302",
+        "description": "First",
+        "camera_uid": 302
+    },
+    {
+        "location": "HSB 225 Corner",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/303",
+        "description": "First",
+        "camera_uid": 303
+    },
+    {
+        "location": "HSB 228 Above CLT",
+        "lat": 12.9886692894,
+        "long": 80.2322123765,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/304",
+        "description": "First",
+        "camera_uid": 304
+    },
+    {
+        "location": "HSB 129 LT Lab Corridor",
+        "lat": 12.9890510177,
+        "long": 80.2321932968,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/305",
+        "description": "Ground",
+        "camera_uid": 305
+    },
+    {
+        "location": "HSB 105A Department Entrance",
+        "lat": 12.988715926,
+        "long": 80.2323598014,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/306",
+        "description": "Ground ",
+        "camera_uid": 306
+    },
+    {
+        "location": "HSB 304 Corridor",
+        "lat": 12.9886634453,
+        "long": 80.2323743113,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/307",
+        "description": "Second",
+        "camera_uid": 307
+    },
+    {
+        "location": "HSB 305 Corridor",
+        "lat": 12.9886634453,
+        "long": 80.2323743113,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/308",
+        "description": "Second",
+        "camera_uid": 308
+    },
+    {
+        "location": "HSB 315A Staircase",
+        "lat": 12.9886634453,
+        "long": 80.2323743113,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/309",
+        "description": "Second",
+        "camera_uid": 309
+    },
+    {
+        "location": "HSB 324 BTech lab Corridor",
+        "lat": 12.9892280593,
+        "long": 80.2316471967,
+        "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/310",
+        "description": "Second",
+        "camera_uid": 310
+    }
+]

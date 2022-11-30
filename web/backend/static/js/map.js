@@ -40,13 +40,16 @@ function initMap() {
 
         const detailsWindows = new google.maps.InfoWindow({
             content: `<h1 ><a href="${link}">${des}</a></h1>
-                    <h2>${dis}</h2>`
+                    <h2 onclick="">${dis}</h2>
+                    `
         });
 
         marker.addListener("click", () => {
             detailsWindows.open(map, marker);
         })
     }
+
+    
     console.log(camera);
     addmarker_cameras({ lat: parseFloat(camera[0].lat), lng: parseFloat(camera[0].long) }, camera[0].camera_ip,`${camera[0].location} - ${camera[0].description}`,`${camera[0].distances} KM`);
     addmarker_cameras({ lat: parseFloat(camera[1].lat), lng: parseFloat(camera[1].long) }, camera[1].camera_ip,`${camera[1].location} - ${camera[1].description}`,`${camera[1].distances} KM`);

@@ -3,7 +3,7 @@ import pandas as pd
 from api.config import basepath
 import os
 
-data = pd.read_json(os.path.join(basepath,'data', 'cameras_data.json'))
+data = pd.read_json(os.path.join(basepath,'data', 'cameras_data_ip.json'))
 
 def dist(lat1, long1, lat2, long2):
     """

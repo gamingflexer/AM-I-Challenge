@@ -11,7 +11,7 @@
 
 <header id="desktop-header">
     <div class="home-content">
-        <h2 style="color:rgb(255, 255, 255)">IITM APP | Camera View</h2>
+        <h2 style="color:rgb(255, 255, 255)">{{camera_info.location}} {{camera_info.description}} | IITM</h2>
     </div>
     <nav>
         <ul>
@@ -27,13 +27,16 @@
 </header>
 
 <body>
-    <script type="text/javascript"> window.CSRF_TOKEN = "{{ csrf_token }}"; </script>
+    <script type="text/javascript"> 
+    window.CSRF_TOKEN = "{{ csrf_token }}"; 
+    window.ip = "{{ ip }}"; 
+    </script>
     <div id="recorder">
         {% csrf_token %}
         <a id="download" style="color:rgb(255, 255, 255)"></a>
         <script type="text/javascript" src="{% static '/js/recorder.js' %}"></script>
     </div>
-    <img id="video" src="{% url 'video_viewer' %}">
+    <img id="video" src="{% url 'video_viewer' ip%}">
 </body>
 
 </html>

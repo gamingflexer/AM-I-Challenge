@@ -8,6 +8,8 @@
 {% compress css %}
 <link type="text/x-scss" href="{% static '/scss/dashboard.scss' %}" rel="stylesheet" media="screen">
 {% endcompress %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="module" src="{% static '/js/dashboard.js' %}"></script>
 <script>document.addEventListener('DOMContentLoaded', function () {
         var modeSwitch = document.querySelector('.mode-switch');
 
