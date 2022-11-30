@@ -11,7 +11,6 @@ from api.config import basepath
 from api.camera import VideoCamera
 from django.http import StreamingHttpResponse,HttpResponse
 from firebase_admin import firestore
-from home.utils import location_finder
 import json
 
 db = firestore.client()
@@ -103,7 +102,7 @@ def dashboard_data_main(only_firebase=False):
             context.append({'lat':data[i]['lat'], 
                             'lng':data[i]['long'],
                             'uid':data[i]['uid'],
-                            'time':str(data[i]['time'])[:10],
-                            'location':location_finder(data[i]['lat'],data[i]['long'])})
+                            'time':str(data[i]['time']),
+                            'location':""})
         return context
     

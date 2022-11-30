@@ -6,6 +6,7 @@ from .forms import RegisterUserForm
 from api.views import dashboard_data_main
 from api.location import find_nearest
 from datetime import datetime
+from home.utils import location_finder
 import time
 
 def index(request):
@@ -16,8 +17,13 @@ def dashboard(request):
     if request.user.is_authenticated:
         username_admin = str(request.user)
         data1 = dashboard_data_main()
+        result = sorted(data1,key=lambda x : datetime.strptime(x['time'][:-9],'%Y-%m-%d %H:%M:%S.%f'))[-7:]
+        for i in range(len(result)):
+            result[i]['time'] = result[i]['time'][:10]
+            result[i]['location'] = location_finder(result[i]['lat'],result[i]['lng'])
         data = {"total":len(data1),"last_updated": time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}
-        return render(request, 'dashboard.html', {'data':data,'data1':data1})
+        result.reverse()
+        return render(request, 'dashboard.html', {'data':data,'data1':result})
 
 @login_required(login_url='/login/')
 def profile(request):
@@ -27,18 +33,21 @@ def profile(request):
 @login_required(login_url='/login/')
 def maps(request,uid):
     if request.user.is_authenticated:
-        data = dashboard_data_main(only_firebase=True)
-        context = {}
-        user_data = []
-        for user in data:
-            if user['uid'] == uid:
-                user_data.append(user)
-        result = sorted(user_data,key=lambda x : datetime.strptime(x['time'][:-9],'%Y-%m-%d %H:%M:%S.%f'))[-1]
-        context['lat'] = result['lat']
-        context['lng'] = result['lng']
-        context['description'] = " ".join([result['uid'],f"{result['time'][:10]}"])
-        context["cords_nearset"] = find_nearest(context['lat'],context['lng'])
-        return render(request, 'map.html', {'data':context})
+        if uid != '1':
+            data = dashboard_data_main(only_firebase=True)
+            context = {}
+            user_data = []
+            for user in data:
+                if user['uid'] == uid:
+                    user_data.append(user)
+            result = sorted(user_data,key=lambda x : datetime.strptime(x['time'][:-9],'%Y-%m-%d %H:%M:%S.%f'))[-1]
+            context['lat'] = result['lat']
+            context['lng'] = result['lng']
+            context['description'] = " ".join([result['uid'],f"{result['time'][:10]}"])
+            context["cords_nearset"] = find_nearest(context['lat'],context['lng'])
+            return render(request, 'map.html', {'data':context})
+        else:
+            return render(request, 'map.html', {})
 
 def page_404(request):
     return render(request, 'page_404.html', {})

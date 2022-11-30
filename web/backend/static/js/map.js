@@ -29,9 +29,9 @@ function initMap() {
         })
     }
 
-    addmarker_user({lat: parseFloat(lat_user), lng: parseFloat(lng_user)},"","des");
+    addmarker_user({lat: parseFloat(lat_user), lng: parseFloat(lng_user)},"","User Location");
 
-    function addmarker_cameras(location, link,des) {
+    function addmarker_cameras(location, link,des,dis) {
         var marker = new google.maps.Marker({
             position: location,
             map: map,
@@ -39,7 +39,8 @@ function initMap() {
         });
 
         const detailsWindows = new google.maps.InfoWindow({
-            content: `<h1 style="color:rgb(255, 255, 255)"><a href="${link}">${des}</a></h1>`
+            content: `<h1 ><a href="${link}">${des}</a></h1>
+                    <h2>${dis}</h2>`
         });
 
         marker.addListener("click", () => {
@@ -47,13 +48,13 @@ function initMap() {
         })
     }
     console.log(camera);
-    addmarker_cameras({ lat: parseFloat(camera[0].lat), lng: parseFloat(camera[0].long) }, camera[0].camera_ip,`${camera[0].location} - ${camera[0].description}`);
-    addmarker_cameras({ lat: parseFloat(camera[1].lat), lng: parseFloat(camera[1].long) }, camera[1].camera_ip,`${camera[1].location} - ${camera[1].description}`);
-    addmarker_cameras({ lat: parseFloat(camera[2].lat), lng: parseFloat(camera[2].long) }, camera[2].camera_ip,`${camera[2].location} - ${camera[2].description}`);
-    addmarker_cameras({ lat: parseFloat(camera[3].lat), lng: parseFloat(camera[3].long) }, camera[3].camera_ip,`${camera[3].location} - ${camera[3].description}`);
-    addmarker_cameras({ lat: parseFloat(camera[4].lat), lng: parseFloat(camera[4].long) }, camera[4].camera_ip,`${camera[4].location} - ${camera[4].description}`);
-    addmarker_cameras({ lat: parseFloat(camera[5].lat), lng: parseFloat(camera[5].long) }, camera[5].camera_ip,`${camera[5].location} - ${camera[5].description}`);
-    addmarker_cameras({ lat: parseFloat(camera[6].lat), lng: parseFloat(camera[6].long) }, camera[6].camera_ip,`${camera[6].location} - ${camera[6].description}`);
+    addmarker_cameras({ lat: parseFloat(camera[0].lat), lng: parseFloat(camera[0].long) }, camera[0].camera_ip,`${camera[0].location} - ${camera[0].description}`,`${camera[0].distances} KM`);
+    addmarker_cameras({ lat: parseFloat(camera[1].lat), lng: parseFloat(camera[1].long) }, camera[1].camera_ip,`${camera[1].location} - ${camera[1].description}`,`${camera[1].distances} KM`);
+    addmarker_cameras({ lat: parseFloat(camera[2].lat), lng: parseFloat(camera[2].long) }, camera[2].camera_ip,`${camera[2].location} - ${camera[2].description}`,`${camera[2].distances} KM`);
+    addmarker_cameras({ lat: parseFloat(camera[3].lat), lng: parseFloat(camera[3].long) }, camera[3].camera_ip,`${camera[3].location} - ${camera[3].description}`,`${camera[3].distances} KM`);
+    addmarker_cameras({ lat: parseFloat(camera[4].lat), lng: parseFloat(camera[4].long) }, camera[4].camera_ip,`${camera[4].location} - ${camera[4].description}`,`${camera[4].distances} KM`);
+    addmarker_cameras({ lat: parseFloat(camera[5].lat), lng: parseFloat(camera[5].long) }, camera[5].camera_ip,`${camera[5].location} - ${camera[5].description}`,`${camera[5].distances} KM`);
+    addmarker_cameras({ lat: parseFloat(camera[6].lat), lng: parseFloat(camera[6].long) }, camera[6].camera_ip,`${camera[6].location} - ${camera[6].description}`,`${camera[6].distances} KM`);
 }
 
 

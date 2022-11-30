@@ -59,14 +59,14 @@
             </div>
         </div>
         <div class="app-header-right">
-            <button class="add-btn" title="Add New File" onclick="location.href='/map/1';">
+            <!-- <button class="add-btn" target="_blank" title="Add New File" onclick="location.href='/map/1';">
                 <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
                     class="feather feather-plus">
                     <line x1="12" y1="5" x2="12" y2="19" />
                     <line x1="5" y1="12" x2="19" y2="12" />
                 </svg>
-            </button>
+            </button> -->
             <button class="mode-switch" title="Switch Theme">
                 <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                     stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
@@ -189,366 +189,383 @@
                             <p class="box-content-header">{{data1.0.location}}</p>
                             <p class="box-content-subheader">{{data1.0.lat}},{{data1.0.lng}}</p>
                         </div>
-                        <div class="project-box-footer">
-                            <div class="participants">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <button class="add-participant" style="color: #ff942e;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-plus">
-                                        <path d="M12 5v14M5 12h14" />
-                                    </svg>
-                                </button>
-                            </div>
+                            <div class="project-box-footer">
+                                <div class="participants">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <button class="add-participant" style="color: #ff942e;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                            <path d="M12 5v14M5 12h14" />
+                                        </svg>
+                                    </button>
+                                </div>
 
-                            <a href="{%url 'map' data1.0.uid%}">
-                                <div class="days-left" style="color: #ff942e;">
-                                    Open
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% if data1.1.uid %}
-                <div class="project-box-wrapper">
-                    <div class="project-box" style="background-color: #e9e7fd;">
-                        <div class="project-box-header">
-                            <span>{{data1.1.time}}</span>
-                            <div class="more-wrapper">
-                                <button class="project-btn-more">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-more-vertical">
-                                        <circle cx="12" cy="12" r="1" />
-                                        <circle cx="12" cy="5" r="1" />
-                                        <circle cx="12" cy="19" r="1" />
-                                    </svg>
-                                </button>
+                                <a target="_blank" href="{%url 'map' data1.0.uid%} ">
+                                    <div class="days-left" style="color: #ff942e;">
+                                        Open
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="project-box-content-header">
-                            <p class="box-content-header">{{data1.1.location}}</p>
-                            <p class="box-content-subheader">{{data1.1.lat}},{{data1.1.lng}}</p>
-                        </div>
-                        <div class="project-box-footer">
-                            <div class="participants">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <button class="add-participant" style="color: #4f3ff0;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-plus">
-                                        <path d="M12 5v14M5 12h14" />
-                                    </svg>
-                                </button>
-                            </div>
-                            <a href="{%url 'map' data1.1.uid%}">
-                                <div class="days-left" style="color: #4f3ff0;">
-                                    Open
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% if data1.2.uid %}
-                <div class="project-box-wrapper">
-                    <div class="project-box">
-                        <div class="project-box-header">
-                            <span>{{data1.2.time}}</span>
-                            <div class="more-wrapper">
-                                <button class="project-btn-more">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-more-vertical">
-                                        <circle cx="12" cy="12" r="1" />
-                                        <circle cx="12" cy="5" r="1" />
-                                        <circle cx="12" cy="19" r="1" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="project-box-content-header">
-                            <p class="box-content-header">{{data1.2.location}}</p>
-                            <p class="box-content-subheader">{{data1.2.lat}},{{data1.2.lng}}</p>
-                        </div>
-                        <div class="project-box-footer">
-                            <div class="participants">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <button class="add-participant" style="color: #096c86;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-plus">
-                                        <path d="M12 5v14M5 12h14" />
-                                    </svg>
-                                </button>
-                            </div>
-                            <a href="{%url 'map' data1.2.uid%}">
-                                <div class="days-left" style="color: #096c86;">
-                                    Open
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% if data1.3.uid %}
-                <div class="project-box-wrapper">
-                    <div class="project-box" style="background-color: #ffd3e2;">
-                        <div class="project-box-header">
-                            <span>{{data1.3.time}}</span>
-                            <div class="more-wrapper">
-                                <button class="project-btn-more">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-more-vertical">
-                                        <circle cx="12" cy="12" r="1" />
-                                        <circle cx="12" cy="5" r="1" />
-                                        <circle cx="12" cy="19" r="1" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="project-box-content-header">
-                            <p class="box-content-header">{{data1.3.location}}</p>
-                            <p class="box-content-subheader">{{data1.3.lat}},{{data1.3.lng}}</p>
-                        </div>
-                        <div class="project-box-footer">
-                            <div class="participants">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <button class="add-participant" style="color: #df3670;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-plus">
-                                        <path d="M12 5v14M5 12h14" />
-                                    </svg>
-                                </button>
-                            </div>
-                            <a href="{%url 'map' data1.3.uid%}">
-                                <div class="days-left" style="color: #df3670;">
-                                    Open
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% if data1.4.uid %}
-                <div class="project-box-wrapper">
-                    <div class="project-box" style="background-color: #c8f7dc;">
-                        <div class="project-box-header">
-                            <span>{{data1.4.time}}</span>
-                            <div class="more-wrapper">
-                                <button class="project-btn-more">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-more-vertical">
-                                        <circle cx="12" cy="12" r="1" />
-                                        <circle cx="12" cy="5" r="1" />
-                                        <circle cx="12" cy="19" r="1" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="project-box-content-header">
-                            <p class="box-content-header">{{data1.4.location}}</p>
-                            <p class="box-content-subheader">{{data1.4.lat}},{{data1.4.lng}}</p>
-                        </div>
-                        <div class="project-box-footer">
-                            <div class="participants">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <button class="add-participant" style="color: #34c471;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-plus">
-                                        <path d="M12 5v14M5 12h14" />
-                                    </svg>
-                                </button>
-                            </div>
-                            <a href="{%url 'map' data1.4.uid%}">
-                                <div class="days-left" style="color: #34c471;">
-                                    Open
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% if data1.5.uid %}
-                <div class="project-box-wrapper">
-                    <div class="project-box" style="background-color: #d5deff;">
-                        <div class="project-box-header">
-                            <span>{{data1.5.time}}</span>
-                            <div class="more-wrapper">
-                                <button class="project-btn-more">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-more-vertical">
-                                        <circle cx="12" cy="12" r="1" />
-                                        <circle cx="12" cy="5" r="1" />
-                                        <circle cx="12" cy="19" r="1" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="project-box-content-header">
-                            <p class="box-content-header">{{data1.5.location}}</p>
-                            <p class="box-content-subheader">{{data1.5.lat}},{{data1.5.lng}}</p>
-                        </div>
-                        <div class="project-box-footer">
-                            <div class="participants">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="participant">
-                                <button class="add-participant" style="color: #4067f9;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-plus">
-                                        <path d="M12 5v14M5 12h14" />
-                                    </svg>
-                                </button>
-                            </div>
-                            <a href="{%url 'map' data1.5.uid%}">
-                                <div class="days-left" style="color: #4067f9;">
-                                    Open
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        <div class="messages-section">
-            <button class="messages-close">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-x-circle">
-                    <circle cx="12" cy="12" r="10" />
-                    <line x1="15" y1="9" x2="9" y2="15" />
-                    <line x1="9" y1="9" x2="15" y2="15" />
-                </svg>
-            </button>
-            <div class="projects-section-header">
-                <p>Top Locations</p>
-            </div>
-            {% if data1.0.uid %}
-            <div class="messages">
-                <div class="message-box">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="profile image">
-                    <div class="message-content">
-                        <div class="message-header">
-                            <div class="name">1</div>
-                            <div class="star-checkbox">
-                                <input type="checkbox" id="star-1">
-                                <label for="star-1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-star">
-                                        <polygon
-                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                                    </svg>
-                                </label>
-                            </div>
-                        </div>
-                        <p class="message-line">
-                            {{data1.0.location}}
-                        </p>
-                        <p class="message-line time">
-                            {{data1.0.time}}
-                        </p>
-                    </div>
-                </div>
-                {% endif %}
-                {% if data1.1.uid %}
-                <div class="message-box">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="profile image">
-                    <div class="message-content">
-                        <div class="message-header">
-                            <div class="name">2</div>
-                            <div class="star-checkbox">
-                                <input type="checkbox" id="star-2">
-                                <label for="star-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-star">
-                                        <polygon
-                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                                    </svg>
-                                </label>
-                            </div>
-                        </div>
-                        <p class="message-line">
-                            {{data1.1.location}}
-                        </p>
-                        <p class="message-line time">
-                            {{data1.1.time}}
-                        </p>
-                    </div>
-                </div>
-                {% endif %}
-                {% if data1.2.uid %}
-                <div class="message-box">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="profile image">
-                    <div class="message-content">
-                        <div class="message-header">
-                            <div class="name">3</div>
-                            <div class="star-checkbox">
-                                <input type="checkbox" id="star-3">
-                                <label for="star-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-star">
-                                        <polygon
-                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                                    </svg>
-                                </label>
-                            </div>
-                        </div>
-                        <p class="message-line">
-                            {{data1.2.location}}
-                        </p>
-                        <p class="message-line time">
-                            {{data1.2.time}}
-                        </p>
-                    </div>
-                </div>
-                {% endif %}
-                {% if data1.3.uid %}
-                <div class="message-box">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="profile image">
-                    <div class="message-content">
-                        <div class="message-header">
-                            <div class="name">4</div>
-                            <div class="star-checkbox">
-                                <input type="checkbox" id="star-4">
-                                <label for="star-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="feather feather-star">
-                                        <polygon
-                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                                    </svg>
-                                </label>
-                            </div>
-                        </div>
-                        <p class="message-line">
-                            {{data1.3.location}}
-                        </p>
-                        <p class="message-line time">
-                            {{data1.3.time}}
-                        </p>
                     </div>
                     {% endif %}
+                    {% if data1.1.uid %}
+                    <div class="project-box-wrapper">
+                        <div class="project-box" style="background-color: #e9e7fd;">
+                            <div class="project-box-header">
+                                <span>{{data1.1.time}}</span>
+                                <div class="more-wrapper">
+                                    <button class="project-btn-more">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-more-vertical">
+                                            <circle cx="12" cy="12" r="1" />
+                                            <circle cx="12" cy="5" r="1" />
+                                            <circle cx="12" cy="19" r="1" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project-box-content-header">
+                                <p class="box-content-header">{{data1.1.location}}</p>
+                                <p class="box-content-subheader">{{data1.1.lat}},{{data1.1.lng}}</p>
+                            </div>
+                            <div class="project-box-footer">
+                                <div class="participants">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <button class="add-participant" style="color: #4f3ff0;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                            <path d="M12 5v14M5 12h14" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a target="_blank" href="{%url 'map' data1.1.uid%}">
+                                    <div class="days-left" style="color: #4f3ff0;">
+                                        Open
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if data1.2.uid %}
+                    <div class="project-box-wrapper">
+                        <div class="project-box">
+                            <div class="project-box-header">
+                                <span>{{data1.2.time}}</span>
+                                <div class="more-wrapper">
+                                    <button class="project-btn-more">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-more-vertical">
+                                            <circle cx="12" cy="12" r="1" />
+                                            <circle cx="12" cy="5" r="1" />
+                                            <circle cx="12" cy="19" r="1" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project-box-content-header">
+                                <p class="box-content-header">{{data1.2.location}}</p>
+                                <p class="box-content-subheader">{{data1.2.lat}},{{data1.2.lng}}</p>
+                            </div>
+                            <div class="project-box-footer">
+                                <div class="participants">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <button class="add-participant" style="color: #096c86;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                            <path d="M12 5v14M5 12h14" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a target="_blank" href="{%url 'map' data1.2.uid%}">
+                                    <div class="days-left" style="color: #096c86;">
+                                        Open
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if data1.3.uid %}
+                    <div class="project-box-wrapper">
+                        <div class="project-box" style="background-color: #ffd3e2;">
+                            <div class="project-box-header">
+                                <span>{{data1.3.time}}</span>
+                                <div class="more-wrapper">
+                                    <button class="project-btn-more">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-more-vertical">
+                                            <circle cx="12" cy="12" r="1" />
+                                            <circle cx="12" cy="5" r="1" />
+                                            <circle cx="12" cy="19" r="1" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project-box-content-header">
+                                <p class="box-content-header">{{data1.3.location}}</p>
+                                <p class="box-content-subheader">{{data1.3.lat}},{{data1.3.lng}}</p>
+                            </div>
+                            <div class="project-box-footer">
+                                <div class="participants">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <button class="add-participant" style="color: #df3670;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                            <path d="M12 5v14M5 12h14" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a target="_blank" href="{%url 'map' data1.3.uid%}">
+                                    <div class="days-left" style="color: #df3670;">
+                                        Open
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if data1.4.uid %}
+                    <div class="project-box-wrapper">
+                        <div class="project-box" style="background-color: #c8f7dc;">
+                            <div class="project-box-header">
+                                <span>{{data1.4.time}}</span>
+                                <div class="more-wrapper">
+                                    <button class="project-btn-more">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-more-vertical">
+                                            <circle cx="12" cy="12" r="1" />
+                                            <circle cx="12" cy="5" r="1" />
+                                            <circle cx="12" cy="19" r="1" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project-box-content-header">
+                                <p class="box-content-header">{{data1.4.location}}</p>
+                                <p class="box-content-subheader">{{data1.4.lat}},{{data1.4.lng}}</p>
+                            </div>
+                            <div class="project-box-footer">
+                                <div class="participants">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <button class="add-participant" style="color: #34c471;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                            <path d="M12 5v14M5 12h14" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a target="_blank" href="{%url 'map' data1.4.uid%}">
+                                    <div class="days-left" style="color: #34c471;">
+                                        Open
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if data1.5.uid %}
+                    <div class="project-box-wrapper">
+                        <div class="project-box" style="background-color: #d5deff;">
+                            <div class="project-box-header">
+                                <span>{{data1.5.time}}</span>
+                                <div class="more-wrapper">
+                                    <button class="project-btn-more">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-more-vertical">
+                                            <circle cx="12" cy="12" r="1" />
+                                            <circle cx="12" cy="5" r="1" />
+                                            <circle cx="12" cy="19" r="1" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="project-box-content-header">
+                                <p class="box-content-header">{{data1.5.location}}</p>
+                                <p class="box-content-subheader">{{data1.5.lat}},{{data1.5.lng}}</p>
+                            </div>
+                            <div class="project-box-footer">
+                                <div class="participants">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png"
+                                        alt="participant">
+                                    <button class="add-participant" style="color: #4067f9;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                                            <path d="M12 5v14M5 12h14" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a target="_blank" href="{%url 'map' data1.5.uid%}">
+                                    <div class="days-left" style="color: #4067f9;">
+                                        Open
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            <div class="messages-section">
+                <button class="messages-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-x-circle">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="15" y1="9" x2="9" y2="15" />
+                        <line x1="9" y1="9" x2="15" y2="15" />
+                    </svg>
+                </button>
+                <div class="projects-section-header">
+                    <p>Top Locations</p>
+                </div>
+                {% if data1.0.uid %}
+                <div class="messages">
+                    <div class="message-box">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="profile image">
+                        <div class="message-content">
+                            <div class="message-header">
+                                <div class="name">1</div>
+                                <div class="star-checkbox">
+                                    <input type="checkbox" id="star-1">
+                                    <label for="star-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="message-line">
+                                {{data1.0.location}}
+                            </p>
+                            <p class="message-line time">
+                                {{data1.0.time}}
+                            </p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if data1.1.uid %}
+                    <div class="message-box">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="profile image">
+                        <div class="message-content">
+                            <div class="message-header">
+                                <div class="name">2</div>
+                                <div class="star-checkbox">
+                                    <input type="checkbox" id="star-2">
+                                    <label for="star-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="message-line">
+                                {{data1.1.location}}
+                            </p>
+                            <p class="message-line time">
+                                {{data1.1.time}}
+                            </p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if data1.2.uid %}
+                    <div class="message-box">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="profile image">
+                        <div class="message-content">
+                            <div class="message-header">
+                                <div class="name">3</div>
+                                <div class="star-checkbox">
+                                    <input type="checkbox" id="star-3">
+                                    <label for="star-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="message-line">
+                                {{data1.2.location}}
+                            </p>
+                            <p class="message-line time">
+                                {{data1.2.time}}
+                            </p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if data1.3.uid %}
+                    <div class="message-box">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2105/2105556.png" alt="profile image">
+                        <div class="message-content">
+                            <div class="message-header">
+                                <div class="name">4</div>
+                                <div class="star-checkbox">
+                                    <input type="checkbox" id="star-4">
+                                    <label for="star-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="message-line">
+                                {{data1.3.location}}
+                            </p>
+                            <p class="message-line time">
+                                {{data1.3.time}}
+                            </p>
+                        </div>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 </html>
 {% endblock body %}
