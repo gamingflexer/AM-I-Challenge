@@ -2,14 +2,15 @@ $(document).ready(function () {
 
     setInterval(function () {
         $.ajax({
-            url: "/",
+            url: "/api/v0/testing",
             type: "GET",
             dataType: "json",
-            success: function (data) {
-                $("#dashboard").html(data.html);},
+            success: function (response) {
+                console.log(response);
+            },
             error: function (response) {
                 console.log(response);
             }
         })
-    }, 3000);
+    }, 1000);
 });

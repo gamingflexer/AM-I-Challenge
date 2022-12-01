@@ -41,6 +41,8 @@ buttonStop.onclick = function() {
             var downloadLink = document.getElementById("download");
             downloadLink.text = "Download Video";
             downloadLink.href = "/static/video.avi";
+            var downloadLink = document.getElementById("downloadlocally");
+            downloadLink.text = "Saved in Data Folder";
         }
     }
     xhr.open("POST", "http://127.0.0.1:5001/api/v0/record_status");

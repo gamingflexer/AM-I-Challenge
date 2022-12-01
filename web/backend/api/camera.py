@@ -10,7 +10,7 @@ capture = cv2.VideoCapture('rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBu
 '''
 import cv2
 import threading
-
+import uuid
 class RecordingThread (threading.Thread):
     def __init__(self, name, camera):
         threading.Thread.__init__(self)
@@ -19,7 +19,7 @@ class RecordingThread (threading.Thread):
 
         self.cap = camera
         fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-        self.out = cv2.VideoWriter('./static/video.avi',fourcc, 20.0, (640,480))
+        self.out = cv2.VideoWriter(f'./static/video_{str(uuid.uuid4())}_.avi',fourcc, 20.0, (640,480))
 
     def run(self):
         while self.isRunning:

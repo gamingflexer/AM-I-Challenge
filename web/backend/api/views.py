@@ -78,7 +78,7 @@ class BaseAPI(APIView):
 
     def get(self, request):
         try:
-            result = ""
+            result = "Hello World"
             context = {
                 'data': result
             }
