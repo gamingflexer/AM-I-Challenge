@@ -46,4 +46,6 @@ We are using MongoDB as our database. So, you need to install MongoDB on your sy
 - Migrate the database using `python manage.py migrate`
 - Run the server using `python manage.py runserver`
 
+- Also add google map api key in map.html in backend/web/templates folder
+
 We are also using Firebase. So, you need to create a Firebase project and add the `google-services.json` from a service account (web app) file in the `web/backend/config/` directory so we can connect both the backend and the mobile app.
