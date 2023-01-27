@@ -2,10 +2,11 @@
 {% block title %}IITM APP{% endblock title %}
 {% block body %}
 {% load static %}
+{% load compress %}
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Add Map</title>
+    <title>IITM</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
     <link rel="stylesheet" type="text/css" href="{% static '/css/map.css' %}" />
@@ -21,9 +22,12 @@
     
     <div id="map"></div>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key="
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&v=weekly"
       defer
     ></script>
   </body>
+  <footer>
+    <button><a href="{% url 'home' %}">Home</a></button>
+  </footer>
 </html>
 {% endblock body %}

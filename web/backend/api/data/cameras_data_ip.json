@@ -380,7 +380,7 @@
         "lat": 12.9884218583,
         "long": 80.2325338839,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/47",
-        "description": "Towards Raman\nblock",
+        "description": "Towards Ramanblock",
         "camera_uid": 47
     },
     {
@@ -1064,7 +1064,7 @@
         "camera_uid": 132
     },
     {
-        "location": "The cameras at Auto shop near Velachery Gate are under maintenance.  \n\n",
+        "location": "The cameras at Auto shop near Velachery Gate are under maintenance.",
         "lat": 12.9917514541,
         "long": 80.2309984149,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/133",
@@ -1096,7 +1096,7 @@
         "camera_uid": 136
     },
     {
-        "location": "BSB - II Floor \nis in WORKING condition.",
+        "location": "BSB - II Floor is in WORKING condition.",
         "lat": 12.9891351908,
         "long": 80.2291617585,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/137",
@@ -1104,7 +1104,7 @@
         "camera_uid": 137
     },
     {
-        "location": "SSB\n- WORKING and\u00a0 it's under warranty and it should be increased (12 cameras) to cover parking areas and some more places to cover.",
+        "location": "SSB - WORKING and it's under warranty and it should be increased (12 cameras) to cover parking areas and some more places to cover.",
         "lat": 12.9892362873,
         "long": 80.2297921596,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/138",
@@ -1116,7 +1116,7 @@
         "lat": 12.9887562958,
         "long": 80.230766854,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/139",
-        "description": "62 Nos.\n(43 in working condition)",
+        "description": "62 Nos.(43 in working condition)",
         "camera_uid": 139
     },
     {
@@ -1128,7 +1128,7 @@
         "camera_uid": 140
     },
     {
-        "location": "The interiors of individual rooms and labs are\u00a0not covered.",
+        "location": "The interiors of individual rooms and labs are not covered.",
         "lat": 12.9887562958,
         "long": 80.230766854,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/141",
@@ -1544,7 +1544,7 @@
         "camera_uid": 192
     },
     {
-        "location": "Ground Floor Corridor\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0",
+        "location": "Ground Floor Corridor",
         "lat": 12.9897985595,
         "long": 80.2268126916,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/193",
@@ -1560,7 +1560,7 @@
         "camera_uid": 194
     },
     {
-        "location": "NAC 524 -\u00a0Department Office Lobby",
+        "location": "NAC 524 - Department Office Lobby",
         "lat": 12.993320613,
         "long": 80.2301987659,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/195",
@@ -1656,7 +1656,7 @@
         "camera_uid": 206
     },
     {
-        "location": "Stack I - Entrance and rear \u00a0 ",
+        "location": "Stack I - Entrance and rear",
         "lat": 12.9916474127,
         "long": 80.2345301467,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/207",
@@ -1664,7 +1664,7 @@
         "camera_uid": 207
     },
     {
-        "location": "First Floor Lobby \u00a0 ",
+        "location": "First Floor Lobby",
         "lat": 12.9916474127,
         "long": 80.2345301467,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/208",
@@ -1672,7 +1672,7 @@
         "camera_uid": 208
     },
     {
-        "location": "Stack II - Entrance and rear \u00a0 ",
+        "location": "Stack II - Entrance and rear",
         "lat": 12.9916474127,
         "long": 80.2345301467,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/209",
@@ -1688,7 +1688,7 @@
         "camera_uid": 210
     },
     {
-        "location": "Second Floor Lobby  ",
+        "location": "Second Floor Lobby ",
         "lat": 12.9916474127,
         "long": 80.2345301467,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/211",
@@ -1696,7 +1696,7 @@
         "camera_uid": 211
     },
     {
-        "location": "Fourth Stack -Entrance and rear \u00a0 ",
+        "location": "Fourth Stack -Entrance and rear",
         "lat": 12.9916474127,
         "long": 80.2345301467,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/212",
@@ -1736,7 +1736,7 @@
         "camera_uid": 216
     },
     {
-        "location": "Heat Transfer and Thermal\n Power Lab",
+        "location": "Heat Transfer and Thermal Power Lab",
         "lat": 12.9920215082,
         "long": 80.2296504167,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/217",
@@ -1760,7 +1760,7 @@
         "camera_uid": 219
     },
     {
-        "location": "Manufacturing Engineering Section\n2 cameras inside MTL\n1 camera outside MTL (corridor)\n3 cameras in gnd floor of MES\n1 camera at 1st floor of MES\n1 camera at PEIL enterance MSB",
+        "location": "Manufacturing Engineering Section2 cameras inside MTL1 camera outside MTL (corridor) 3 cameras in gnd floor of MES, 1 camera at 1st floor of MES,1 camera at PEIL enterance MSB",
         "lat": 12.9911638946,
         "long": 80.2298162718,
         "camera_ip": "http:\/\/127.0.0.1:5001\/api\/v0\/camera\/0\/220",
