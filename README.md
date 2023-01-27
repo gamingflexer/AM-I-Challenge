@@ -1,6 +1,14 @@
 # AM-I-Challenge
 <img src="https://img.shields.io/static/v1?label=Flutter&message=Done&color=PURPLE"/> <img src="https://img.shields.io/static/v1?label=Django&message=Done&color=PURPLE"/> <img src="https://img.shields.io/static/v1?label=Firebase&message=Done&color=PURPLE"/>
 
+### Screenshots
+
+![alt text](https://github.com/gamingflexer/AM-I-Challenge/blob/main/images/home.png?raw=true)
+
+<p float="left">
+  <img src="https://github.com/gamingflexer/AM-I-Challenge/blob/main/images/login.png?raw=true" width="100" />
+  <img src="https://github.com/gamingflexer/AM-I-Challenge/blob/main/images/home.png?raw=true" width="230" /> 
+</p>
 
 Development of a Mobile App using which the end-user can, by pressing a button submit his/her current location (latitude and longitude) to a backend server located at the Security Section.  At the back-end, on receipt of this latitude and longitude (query location) along with the time, the feeds of all the cameras at increasing distances from the query location must be made available for viewing through a select menu.  The deadline for the demonstration of this App, both front-end and back-end, will be scheduled in the first week of December 2022. 
 
@@ -32,4 +40,4 @@ We are using MongoDB as our database. So, you need to install MongoDB on your sy
 - Migrate the database using `python manage.py migrate`
 - Run the server using `python manage.py runserver`
 
-We are also using Firebase for push notifications. So, you need to create a Firebase project and add the `google-services.json` from a service account (web app) file in the `web/backend/config/` directory so we can connect both the backend and the mobile app.
+We are also using Firebase. So, you need to create a Firebase project and add the `google-services.json` from a service account (web app) file in the `web/backend/config/` directory so we can connect both the backend and the mobile app.
